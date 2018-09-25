@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gasanoe/Documents/GitHub/interviewbit/Arrays/MaxNonNegativeSubarray.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+
