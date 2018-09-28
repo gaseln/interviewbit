@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-MaxNonNegativeSubarray.o: MaxNonNegativeSubarray.cpp.o
+mergeOverlappingIntervals.o: mergeOverlappingIntervals.cpp.o
 
-.PHONY : MaxNonNegativeSubarray.o
+.PHONY : mergeOverlappingIntervals.o
 
 # target to build an object file
-MaxNonNegativeSubarray.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.o
-.PHONY : MaxNonNegativeSubarray.cpp.o
+mergeOverlappingIntervals.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o
+.PHONY : mergeOverlappingIntervals.cpp.o
 
-MaxNonNegativeSubarray.i: MaxNonNegativeSubarray.cpp.i
+mergeOverlappingIntervals.i: mergeOverlappingIntervals.cpp.i
 
-.PHONY : MaxNonNegativeSubarray.i
+.PHONY : mergeOverlappingIntervals.i
 
 # target to preprocess a source file
-MaxNonNegativeSubarray.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.i
-.PHONY : MaxNonNegativeSubarray.cpp.i
+mergeOverlappingIntervals.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.i
+.PHONY : mergeOverlappingIntervals.cpp.i
 
-MaxNonNegativeSubarray.s: MaxNonNegativeSubarray.cpp.s
+mergeOverlappingIntervals.s: mergeOverlappingIntervals.cpp.s
 
-.PHONY : MaxNonNegativeSubarray.s
+.PHONY : mergeOverlappingIntervals.s
 
 # target to generate assembly for a file
-MaxNonNegativeSubarray.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.s
-.PHONY : MaxNonNegativeSubarray.cpp.s
+mergeOverlappingIntervals.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.s
+.PHONY : mergeOverlappingIntervals.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... MaxNonNegativeSubarray.o"
-	@echo "... MaxNonNegativeSubarray.i"
-	@echo "... MaxNonNegativeSubarray.s"
+	@echo "... mergeOverlappingIntervals.o"
+	@echo "... mergeOverlappingIntervals.i"
+	@echo "... mergeOverlappingIntervals.s"
 .PHONY : help
 
 

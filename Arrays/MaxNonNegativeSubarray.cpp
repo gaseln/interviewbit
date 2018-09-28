@@ -13,14 +13,17 @@ std::vector<int> maxset(std::vector<int> &A) {
     while (end != A.end()) {
         if (*end >= 0) {
             current_sum += *end;
-            init_flag = true;
+            if (!init_flag) {
+                begin = end;
+                init_flag = true;
+            }
         }
-        if ((*end < 0 or std::next(end) == A.end()) and init_flag) {
-            if ((current_sum >= max_sum) or (max_sum == 0)) {
+        if ((*end < 0 or (std::next(end) == A.end() and *end >  0)) and init_flag) {
+            if (current_sum >= max_sum) {
                 current_length = (std::next(end) == A.end()) ? A.end() - begin : end - begin;
                 if (((current_length > max_length) and (current_sum == max_sum)) or (current_sum > max_sum)) {
                     begin_best = begin;
-                    end_best = (std::next(end) == A.end()) ? A.end() : end;
+                    end_best = (*end < 0) ? end : A.end();
                     max_sum = current_sum;
                     max_length = current_length;
                 }
@@ -36,7 +39,7 @@ std::vector<int> maxset(std::vector<int> &A) {
 }
 
 int main() {
-    std::vector<int> A = {10, 10, -1, 11, 9, 0};
+    std::vector<int> A = {-1, -1};
     auto B = maxset(A);
     for (const auto& el : B) {
         std::cout << el << " ";

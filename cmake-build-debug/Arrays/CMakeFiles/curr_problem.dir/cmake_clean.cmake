@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.o"
+  "CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

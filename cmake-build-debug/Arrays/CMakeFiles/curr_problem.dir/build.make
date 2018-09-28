@@ -57,27 +57,27 @@ include Arrays/CMakeFiles/curr_problem.dir/progress.make
 # Include the compile flags for this target's objects.
 include Arrays/CMakeFiles/curr_problem.dir/flags.make
 
-Arrays/CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.o: Arrays/CMakeFiles/curr_problem.dir/flags.make
-Arrays/CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.o: ../Arrays/MaxNonNegativeSubarray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Arrays/CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.o"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/Arrays/MaxNonNegativeSubarray.cpp
+Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o: Arrays/CMakeFiles/curr_problem.dir/flags.make
+Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o: ../Arrays/mergeOverlappingIntervals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/Arrays/mergeOverlappingIntervals.cpp
 
-Arrays/CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.i"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/Arrays/MaxNonNegativeSubarray.cpp > CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.i
+Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.i"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/Arrays/mergeOverlappingIntervals.cpp > CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.i
 
-Arrays/CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.s"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/Arrays/MaxNonNegativeSubarray.cpp -o CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.s
+Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.s"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/Arrays/mergeOverlappingIntervals.cpp -o CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.s
 
 # Object files for target curr_problem
 curr_problem_OBJECTS = \
-"CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.o"
+"CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o"
 
 # External object files for target curr_problem
 curr_problem_EXTERNAL_OBJECTS =
 
-Arrays/curr_problem: Arrays/CMakeFiles/curr_problem.dir/MaxNonNegativeSubarray.cpp.o
+Arrays/curr_problem: Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o
 Arrays/curr_problem: Arrays/CMakeFiles/curr_problem.dir/build.make
 Arrays/curr_problem: Arrays/CMakeFiles/curr_problem.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable curr_problem"

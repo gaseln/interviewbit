@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Arrays/MaxNonNegativeSubarray.cpp
-iostream
--
-algorithm
--
+/Users/gasanoe/Documents/GitHub/interviewbit/Arrays/mergeIntervals.cpp
 vector
+-
+iostream
 -
 
