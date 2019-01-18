@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Arrays/mergeIntervals.cpp
+/Users/gasanoe/Documents/GitHub/interviewbit/Arrays/prettyPrint.cpp
 vector
 -
 iostream
+-
+algorithm
 -
 

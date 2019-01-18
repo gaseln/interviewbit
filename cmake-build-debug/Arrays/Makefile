@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-mergeOverlappingIntervals.o: mergeOverlappingIntervals.cpp.o
+prettyPrint.o: prettyPrint.cpp.o
 
-.PHONY : mergeOverlappingIntervals.o
+.PHONY : prettyPrint.o
 
 # target to build an object file
-mergeOverlappingIntervals.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o
-.PHONY : mergeOverlappingIntervals.cpp.o
+prettyPrint.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/prettyPrint.cpp.o
+.PHONY : prettyPrint.cpp.o
 
-mergeOverlappingIntervals.i: mergeOverlappingIntervals.cpp.i
+prettyPrint.i: prettyPrint.cpp.i
 
-.PHONY : mergeOverlappingIntervals.i
+.PHONY : prettyPrint.i
 
 # target to preprocess a source file
-mergeOverlappingIntervals.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.i
-.PHONY : mergeOverlappingIntervals.cpp.i
+prettyPrint.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/prettyPrint.cpp.i
+.PHONY : prettyPrint.cpp.i
 
-mergeOverlappingIntervals.s: mergeOverlappingIntervals.cpp.s
+prettyPrint.s: prettyPrint.cpp.s
 
-.PHONY : mergeOverlappingIntervals.s
+.PHONY : prettyPrint.s
 
 # target to generate assembly for a file
-mergeOverlappingIntervals.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.s
-.PHONY : mergeOverlappingIntervals.cpp.s
+prettyPrint.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/prettyPrint.cpp.s
+.PHONY : prettyPrint.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... mergeOverlappingIntervals.o"
-	@echo "... mergeOverlappingIntervals.i"
-	@echo "... mergeOverlappingIntervals.s"
+	@echo "... prettyPrint.o"
+	@echo "... prettyPrint.i"
+	@echo "... prettyPrint.s"
 .PHONY : help
 
 

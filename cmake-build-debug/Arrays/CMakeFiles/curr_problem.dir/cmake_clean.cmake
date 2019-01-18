@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/mergeOverlappingIntervals.cpp.o"
+  "CMakeFiles/curr_problem.dir/prettyPrint.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )
