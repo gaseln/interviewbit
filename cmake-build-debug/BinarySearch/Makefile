@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-findMedian.o: findMedian.cpp.o
+books.o: books.cpp.o
 
-.PHONY : findMedian.o
+.PHONY : books.o
 
 # target to build an object file
-findMedian.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/findMedian.cpp.o
-.PHONY : findMedian.cpp.o
+books.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/books.cpp.o
+.PHONY : books.cpp.o
 
-findMedian.i: findMedian.cpp.i
+books.i: books.cpp.i
 
-.PHONY : findMedian.i
+.PHONY : books.i
 
 # target to preprocess a source file
-findMedian.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/findMedian.cpp.i
-.PHONY : findMedian.cpp.i
+books.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/books.cpp.i
+.PHONY : books.cpp.i
 
-findMedian.s: findMedian.cpp.s
+books.s: books.cpp.s
 
-.PHONY : findMedian.s
+.PHONY : books.s
 
 # target to generate assembly for a file
-findMedian.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/findMedian.cpp.s
-.PHONY : findMedian.cpp.s
+books.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/books.cpp.s
+.PHONY : books.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... findMedian.o"
-	@echo "... findMedian.i"
-	@echo "... findMedian.s"
+	@echo "... books.o"
+	@echo "... books.i"
+	@echo "... books.s"
 .PHONY : help
 
 
