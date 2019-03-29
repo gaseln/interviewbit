@@ -65,57 +65,57 @@ CMAKE_SOURCE_DIR = /Users/gasanoe/Documents/GitHub/interviewbit
 CMAKE_BINARY_DIR = /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug
 
 #=============================================================================
-# Directory level rules for directory Arrays
+# Directory level rules for directory BinarySearch
 
 # Convenience name for "all" pass in the directory.
-Arrays/all: Arrays/CMakeFiles/curr_problem.dir/all
+BinarySearch/all: BinarySearch/CMakeFiles/curr_problem.dir/all
 
-.PHONY : Arrays/all
+.PHONY : BinarySearch/all
 
 # Convenience name for "clean" pass in the directory.
-Arrays/clean: Arrays/CMakeFiles/curr_problem.dir/clean
+BinarySearch/clean: BinarySearch/CMakeFiles/curr_problem.dir/clean
 
-.PHONY : Arrays/clean
+.PHONY : BinarySearch/clean
 
 # Convenience name for "preinstall" pass in the directory.
-Arrays/preinstall:
+BinarySearch/preinstall:
 
-.PHONY : Arrays/preinstall
+.PHONY : BinarySearch/preinstall
 
 #=============================================================================
-# Target rules for target Arrays/CMakeFiles/curr_problem.dir
+# Target rules for target BinarySearch/CMakeFiles/curr_problem.dir
 
 # All Build rule for target.
-Arrays/CMakeFiles/curr_problem.dir/all:
-	$(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/depend
-	$(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/build
+BinarySearch/CMakeFiles/curr_problem.dir/all:
+	$(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/depend
+	$(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target curr_problem"
-.PHONY : Arrays/CMakeFiles/curr_problem.dir/all
+.PHONY : BinarySearch/CMakeFiles/curr_problem.dir/all
 
 # Include target in all.
-all: Arrays/CMakeFiles/curr_problem.dir/all
+all: BinarySearch/CMakeFiles/curr_problem.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-Arrays/CMakeFiles/curr_problem.dir/rule: cmake_check_build_system
+BinarySearch/CMakeFiles/curr_problem.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 Arrays/CMakeFiles/curr_problem.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 BinarySearch/CMakeFiles/curr_problem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles 0
-.PHONY : Arrays/CMakeFiles/curr_problem.dir/rule
+.PHONY : BinarySearch/CMakeFiles/curr_problem.dir/rule
 
 # Convenience name for target.
-curr_problem: Arrays/CMakeFiles/curr_problem.dir/rule
+curr_problem: BinarySearch/CMakeFiles/curr_problem.dir/rule
 
 .PHONY : curr_problem
 
 # clean rule for target.
-Arrays/CMakeFiles/curr_problem.dir/clean:
-	$(MAKE) -f Arrays/CMakeFiles/curr_problem.dir/build.make Arrays/CMakeFiles/curr_problem.dir/clean
-.PHONY : Arrays/CMakeFiles/curr_problem.dir/clean
+BinarySearch/CMakeFiles/curr_problem.dir/clean:
+	$(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/clean
+.PHONY : BinarySearch/CMakeFiles/curr_problem.dir/clean
 
 # clean rule for target.
-clean: Arrays/CMakeFiles/curr_problem.dir/clean
+clean: BinarySearch/CMakeFiles/curr_problem.dir/clean
 
 .PHONY : clean
 

@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/CMakeFiles/progress.marks
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 BinarySearch/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 BinarySearch/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,31 +143,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 BinarySearch/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 BinarySearch/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named curr_problem
+# Convenience name for target.
+BinarySearch/CMakeFiles/curr_problem.dir/rule:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 BinarySearch/CMakeFiles/curr_problem.dir/rule
+.PHONY : BinarySearch/CMakeFiles/curr_problem.dir/rule
 
-# Build rule for target.
-curr_problem: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 curr_problem
+# Convenience name for target.
+curr_problem: BinarySearch/CMakeFiles/curr_problem.dir/rule
+
 .PHONY : curr_problem
 
 # fast build rule for target.
 curr_problem/fast:
-	$(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/build
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
+
+findMedian.o: findMedian.cpp.o
+
+.PHONY : findMedian.o
+
+# target to build an object file
+findMedian.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/findMedian.cpp.o
+.PHONY : findMedian.cpp.o
+
+findMedian.i: findMedian.cpp.i
+
+.PHONY : findMedian.i
+
+# target to preprocess a source file
+findMedian.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/findMedian.cpp.i
+.PHONY : findMedian.cpp.i
+
+findMedian.s: findMedian.cpp.s
+
+.PHONY : findMedian.s
+
+# target to generate assembly for a file
+findMedian.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/findMedian.cpp.s
+.PHONY : findMedian.cpp.s
 
 # Help Target
 help:
@@ -182,6 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
+	@echo "... findMedian.o"
+	@echo "... findMedian.i"
+	@echo "... findMedian.s"
 .PHONY : help
 
 
@@ -193,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

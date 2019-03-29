@@ -5,7 +5,7 @@
 		<Option title="interviewbit"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Arrays\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\BinarySearch\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug"/>
@@ -78,8 +78,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="curr_problem">
-				<Option output="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/curr_problem" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays"/>
+				<Option output="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/curr_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -93,15 +93,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/Makefile&quot;  VERBOSE=1 curr_problem"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/Makefile&quot;  VERBOSE=1 curr_problem"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="curr_problem/fast">
-				<Option output="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/curr_problem" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays"/>
+				<Option output="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/curr_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -115,21 +115,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/Makefile&quot;  VERBOSE=1 curr_problem/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Arrays/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/Makefile&quot;  VERBOSE=1 curr_problem/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Arrays/prettyPrint.cpp">
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/findMedian.cpp">
 			<Option target="curr_problem"/>
 		</Unit>
 		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Arrays/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Arrays\"/>
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\BinarySearch\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
