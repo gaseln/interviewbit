@@ -15,5 +15,4 @@ int search(std::vector<int>& A, int B) {
         to_left = true;
     }
 
-
 }
