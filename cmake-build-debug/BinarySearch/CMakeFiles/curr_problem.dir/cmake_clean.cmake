@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/books.cpp.o"
+  "CMakeFiles/curr_problem.dir/RotatedSortedArraySearch.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-books.o: books.cpp.o
+RotatedSortedArraySearch.o: RotatedSortedArraySearch.cpp.o
 
-.PHONY : books.o
+.PHONY : RotatedSortedArraySearch.o
 
 # target to build an object file
-books.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/books.cpp.o
-.PHONY : books.cpp.o
+RotatedSortedArraySearch.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/RotatedSortedArraySearch.cpp.o
+.PHONY : RotatedSortedArraySearch.cpp.o
 
-books.i: books.cpp.i
+RotatedSortedArraySearch.i: RotatedSortedArraySearch.cpp.i
 
-.PHONY : books.i
+.PHONY : RotatedSortedArraySearch.i
 
 # target to preprocess a source file
-books.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/books.cpp.i
-.PHONY : books.cpp.i
+RotatedSortedArraySearch.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/RotatedSortedArraySearch.cpp.i
+.PHONY : RotatedSortedArraySearch.cpp.i
 
-books.s: books.cpp.s
+RotatedSortedArraySearch.s: RotatedSortedArraySearch.cpp.s
 
-.PHONY : books.s
+.PHONY : RotatedSortedArraySearch.s
 
 # target to generate assembly for a file
-books.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/books.cpp.s
-.PHONY : books.cpp.s
+RotatedSortedArraySearch.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/RotatedSortedArraySearch.cpp.s
+.PHONY : RotatedSortedArraySearch.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... books.o"
-	@echo "... books.i"
-	@echo "... books.s"
+	@echo "... RotatedSortedArraySearch.o"
+	@echo "... RotatedSortedArraySearch.i"
+	@echo "... RotatedSortedArraySearch.s"
 .PHONY : help
 
 
