@@ -12,7 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c38c05ab-86c5-48e2-8fa2-79c66d31b3a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BinarySearch/MedianOfArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BinarySearch/RotatedSortedArraySearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/RotatedSortedArraySearch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/curr_problem" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinarySearch/curr_problem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interviewbit.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/interviewbit.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,40 +39,40 @@
     <session id="1112972365">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="5" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.open.time.8" value="6" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="algorithm" value="1" />
-          <entry key="cpp" value="33" />
+          <entry key="cpp" value="34" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="6" />
-          <entry key="ObjectiveC" value="34" />
+          <entry key="ObjectiveC" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="21445" />
-          <entry key="txt" value="83" />
+          <entry key="cpp" value="22948" />
+          <entry key="txt" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="83" />
-          <entry key="ObjectiveC" value="21445" />
+          <entry key="CMakeLists.txt" value="84" />
+          <entry key="ObjectiveC" value="22948" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -78,10 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BinarySearch/RotatedSortedArraySearch.cpp">
+        <entry file="file://$PROJECT_DIR$/BinarySearch/MedianOfArray.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="300">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -131,8 +144,9 @@
         <option value="$PROJECT_DIR$/BinarySearch/SortedInsertPosition.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/SearchForARange.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/MatrixSearch.cpp" />
-        <option value="$PROJECT_DIR$/BinarySearch/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/BinarySearch/RotatedSortedArraySearch.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/BinarySearch/MedianOfArray.cpp" />
       </list>
     </option>
   </component>
@@ -243,16 +257,18 @@
       <workItem from="1553931096184" duration="3147000" />
       <workItem from="1553956215446" duration="917000" />
       <workItem from="1553977559631" duration="14000" />
+      <workItem from="1554011772804" duration="3346000" />
+      <workItem from="1554140230999" duration="841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59747000" />
+    <option name="totallyTimeSpent" value="63934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30830282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31562883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -466,6 +482,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/RotatedSortedArraySearch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" selection-start-line="3" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -473,10 +496,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/RotatedSortedArraySearch.cpp">
+    <entry file="file://$PROJECT_DIR$/BinarySearch/MedianOfArray.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="300">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

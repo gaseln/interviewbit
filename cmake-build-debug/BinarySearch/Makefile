@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-RotatedSortedArraySearch.o: RotatedSortedArraySearch.cpp.o
+MedianOfArray.o: MedianOfArray.cpp.o
 
-.PHONY : RotatedSortedArraySearch.o
+.PHONY : MedianOfArray.o
 
 # target to build an object file
-RotatedSortedArraySearch.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/RotatedSortedArraySearch.cpp.o
-.PHONY : RotatedSortedArraySearch.cpp.o
+MedianOfArray.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o
+.PHONY : MedianOfArray.cpp.o
 
-RotatedSortedArraySearch.i: RotatedSortedArraySearch.cpp.i
+MedianOfArray.i: MedianOfArray.cpp.i
 
-.PHONY : RotatedSortedArraySearch.i
+.PHONY : MedianOfArray.i
 
 # target to preprocess a source file
-RotatedSortedArraySearch.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/RotatedSortedArraySearch.cpp.i
-.PHONY : RotatedSortedArraySearch.cpp.i
+MedianOfArray.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.i
+.PHONY : MedianOfArray.cpp.i
 
-RotatedSortedArraySearch.s: RotatedSortedArraySearch.cpp.s
+MedianOfArray.s: MedianOfArray.cpp.s
 
-.PHONY : RotatedSortedArraySearch.s
+.PHONY : MedianOfArray.s
 
 # target to generate assembly for a file
-RotatedSortedArraySearch.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/RotatedSortedArraySearch.cpp.s
-.PHONY : RotatedSortedArraySearch.cpp.s
+MedianOfArray.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.s
+.PHONY : MedianOfArray.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... RotatedSortedArraySearch.o"
-	@echo "... RotatedSortedArraySearch.i"
-	@echo "... RotatedSortedArraySearch.s"
+	@echo "... MedianOfArray.o"
+	@echo "... MedianOfArray.i"
+	@echo "... MedianOfArray.s"
 .PHONY : help
 
 
