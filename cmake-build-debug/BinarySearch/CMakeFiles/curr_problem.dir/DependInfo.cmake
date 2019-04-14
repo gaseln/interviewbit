@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/MedianOfArray.cpp" "/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o"
+  "/Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/power_function.cpp" "/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

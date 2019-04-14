@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-MedianOfArray.o: MedianOfArray.cpp.o
+power_function.o: power_function.cpp.o
 
-.PHONY : MedianOfArray.o
+.PHONY : power_function.o
 
 # target to build an object file
-MedianOfArray.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o
-.PHONY : MedianOfArray.cpp.o
+power_function.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.o
+.PHONY : power_function.cpp.o
 
-MedianOfArray.i: MedianOfArray.cpp.i
+power_function.i: power_function.cpp.i
 
-.PHONY : MedianOfArray.i
+.PHONY : power_function.i
 
 # target to preprocess a source file
-MedianOfArray.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.i
-.PHONY : MedianOfArray.cpp.i
+power_function.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.i
+.PHONY : power_function.cpp.i
 
-MedianOfArray.s: MedianOfArray.cpp.s
+power_function.s: power_function.cpp.s
 
-.PHONY : MedianOfArray.s
+.PHONY : power_function.s
 
 # target to generate assembly for a file
-MedianOfArray.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.s
-.PHONY : MedianOfArray.cpp.s
+power_function.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BinarySearch/CMakeFiles/curr_problem.dir/build.make BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.s
+.PHONY : power_function.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... MedianOfArray.o"
-	@echo "... MedianOfArray.i"
-	@echo "... MedianOfArray.s"
+	@echo "... power_function.o"
+	@echo "... power_function.i"
+	@echo "... power_function.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o"
+  "CMakeFiles/curr_problem.dir/power_function.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

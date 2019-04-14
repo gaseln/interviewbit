@@ -122,7 +122,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/MedianOfArray.cpp">
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/power_function.cpp">
 			<Option target="curr_problem"/>
 		</Unit>
 		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/CMakeLists.txt">

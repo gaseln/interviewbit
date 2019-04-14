@@ -57,27 +57,27 @@ include BinarySearch/CMakeFiles/curr_problem.dir/progress.make
 # Include the compile flags for this target's objects.
 include BinarySearch/CMakeFiles/curr_problem.dir/flags.make
 
-BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o: BinarySearch/CMakeFiles/curr_problem.dir/flags.make
-BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o: ../BinarySearch/MedianOfArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/MedianOfArray.cpp
+BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.o: BinarySearch/CMakeFiles/curr_problem.dir/flags.make
+BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.o: ../BinarySearch/power_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.o"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/power_function.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/power_function.cpp
 
-BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/MedianOfArray.cpp.i"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/MedianOfArray.cpp > CMakeFiles/curr_problem.dir/MedianOfArray.cpp.i
+BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/power_function.cpp.i"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/power_function.cpp > CMakeFiles/curr_problem.dir/power_function.cpp.i
 
-BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/MedianOfArray.cpp.s"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/MedianOfArray.cpp -o CMakeFiles/curr_problem.dir/MedianOfArray.cpp.s
+BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/power_function.cpp.s"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BinarySearch && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/BinarySearch/power_function.cpp -o CMakeFiles/curr_problem.dir/power_function.cpp.s
 
 # Object files for target curr_problem
 curr_problem_OBJECTS = \
-"CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o"
+"CMakeFiles/curr_problem.dir/power_function.cpp.o"
 
 # External object files for target curr_problem
 curr_problem_EXTERNAL_OBJECTS =
 
-BinarySearch/curr_problem: BinarySearch/CMakeFiles/curr_problem.dir/MedianOfArray.cpp.o
+BinarySearch/curr_problem: BinarySearch/CMakeFiles/curr_problem.dir/power_function.cpp.o
 BinarySearch/curr_problem: BinarySearch/CMakeFiles/curr_problem.dir/build.make
 BinarySearch/curr_problem: BinarySearch/CMakeFiles/curr_problem.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable curr_problem"
