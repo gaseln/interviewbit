@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/ReverseBits.cpp.o"
+  "CMakeFiles/curr_problem.dir/BitSumPairwise.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

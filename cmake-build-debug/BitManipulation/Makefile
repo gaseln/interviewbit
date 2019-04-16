@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-ReverseBits.o: ReverseBits.cpp.o
+BitSumPairwise.o: BitSumPairwise.cpp.o
 
-.PHONY : ReverseBits.o
+.PHONY : BitSumPairwise.o
 
 # target to build an object file
-ReverseBits.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/ReverseBits.cpp.o
-.PHONY : ReverseBits.cpp.o
+BitSumPairwise.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/BitSumPairwise.cpp.o
+.PHONY : BitSumPairwise.cpp.o
 
-ReverseBits.i: ReverseBits.cpp.i
+BitSumPairwise.i: BitSumPairwise.cpp.i
 
-.PHONY : ReverseBits.i
+.PHONY : BitSumPairwise.i
 
 # target to preprocess a source file
-ReverseBits.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/ReverseBits.cpp.i
-.PHONY : ReverseBits.cpp.i
+BitSumPairwise.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/BitSumPairwise.cpp.i
+.PHONY : BitSumPairwise.cpp.i
 
-ReverseBits.s: ReverseBits.cpp.s
+BitSumPairwise.s: BitSumPairwise.cpp.s
 
-.PHONY : ReverseBits.s
+.PHONY : BitSumPairwise.s
 
 # target to generate assembly for a file
-ReverseBits.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/ReverseBits.cpp.s
-.PHONY : ReverseBits.cpp.s
+BitSumPairwise.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/BitSumPairwise.cpp.s
+.PHONY : BitSumPairwise.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... ReverseBits.o"
-	@echo "... ReverseBits.i"
-	@echo "... ReverseBits.s"
+	@echo "... BitSumPairwise.o"
+	@echo "... BitSumPairwise.i"
+	@echo "... BitSumPairwise.s"
 .PHONY : help
 
 

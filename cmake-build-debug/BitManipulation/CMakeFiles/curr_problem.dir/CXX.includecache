@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/ReverseBits.cpp
+/Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/BitSumPairwise.cpp
 iostream
+-
+vector
+-
+math.h
 -
 
