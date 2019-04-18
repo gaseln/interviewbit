@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/BitSumPairwise.cpp" "/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/CMakeFiles/curr_problem.dir/BitSumPairwise.cpp.o"
+  "/Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/singleNumberII.cpp" "/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
