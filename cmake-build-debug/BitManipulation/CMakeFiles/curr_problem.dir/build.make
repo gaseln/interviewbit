@@ -57,30 +57,45 @@ include BitManipulation/CMakeFiles/curr_problem.dir/progress.make
 # Include the compile flags for this target's objects.
 include BitManipulation/CMakeFiles/curr_problem.dir/flags.make
 
-BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.o: BitManipulation/CMakeFiles/curr_problem.dir/flags.make
-BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.o: ../BitManipulation/singleNumberII.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.o"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/singleNumberII.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/singleNumberII.cpp
+BitManipulation/CMakeFiles/curr_problem.dir/divideIntegers.cpp.o: BitManipulation/CMakeFiles/curr_problem.dir/flags.make
+BitManipulation/CMakeFiles/curr_problem.dir/divideIntegers.cpp.o: ../BitManipulation/divideIntegers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BitManipulation/CMakeFiles/curr_problem.dir/divideIntegers.cpp.o"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/divideIntegers.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/divideIntegers.cpp
 
-BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/singleNumberII.cpp.i"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/singleNumberII.cpp > CMakeFiles/curr_problem.dir/singleNumberII.cpp.i
+BitManipulation/CMakeFiles/curr_problem.dir/divideIntegers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/divideIntegers.cpp.i"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/divideIntegers.cpp > CMakeFiles/curr_problem.dir/divideIntegers.cpp.i
 
-BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/singleNumberII.cpp.s"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/singleNumberII.cpp -o CMakeFiles/curr_problem.dir/singleNumberII.cpp.s
+BitManipulation/CMakeFiles/curr_problem.dir/divideIntegers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/divideIntegers.cpp.s"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/divideIntegers.cpp -o CMakeFiles/curr_problem.dir/divideIntegers.cpp.s
+
+BitManipulation/CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.o: BitManipulation/CMakeFiles/curr_problem.dir/flags.make
+BitManipulation/CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.o: ../TwoPointers/numRange.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object BitManipulation/CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.o"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/numRange.cpp
+
+BitManipulation/CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.i"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/numRange.cpp > CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.i
+
+BitManipulation/CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.s"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/numRange.cpp -o CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.s
 
 # Object files for target curr_problem
 curr_problem_OBJECTS = \
-"CMakeFiles/curr_problem.dir/singleNumberII.cpp.o"
+"CMakeFiles/curr_problem.dir/divideIntegers.cpp.o" \
+"CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.o"
 
 # External object files for target curr_problem
 curr_problem_EXTERNAL_OBJECTS =
 
-BitManipulation/curr_problem: BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.o
+BitManipulation/curr_problem: BitManipulation/CMakeFiles/curr_problem.dir/divideIntegers.cpp.o
+BitManipulation/curr_problem: BitManipulation/CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.o
 BitManipulation/curr_problem: BitManipulation/CMakeFiles/curr_problem.dir/build.make
 BitManipulation/curr_problem: BitManipulation/CMakeFiles/curr_problem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable curr_problem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable curr_problem"
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/curr_problem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

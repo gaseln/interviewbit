@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/cmake_install.cmake")
+  include("/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/cmake_install.cmake")
 
 endif()
 

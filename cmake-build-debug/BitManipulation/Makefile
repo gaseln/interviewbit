@@ -171,32 +171,59 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-singleNumberII.o: singleNumberII.cpp.o
+__/TwoPointers/numRange.o: __/TwoPointers/numRange.cpp.o
 
-.PHONY : singleNumberII.o
+.PHONY : __/TwoPointers/numRange.o
 
 # target to build an object file
-singleNumberII.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.o
-.PHONY : singleNumberII.cpp.o
+__/TwoPointers/numRange.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.o
+.PHONY : __/TwoPointers/numRange.cpp.o
 
-singleNumberII.i: singleNumberII.cpp.i
+__/TwoPointers/numRange.i: __/TwoPointers/numRange.cpp.i
 
-.PHONY : singleNumberII.i
+.PHONY : __/TwoPointers/numRange.i
 
 # target to preprocess a source file
-singleNumberII.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.i
-.PHONY : singleNumberII.cpp.i
+__/TwoPointers/numRange.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.i
+.PHONY : __/TwoPointers/numRange.cpp.i
 
-singleNumberII.s: singleNumberII.cpp.s
+__/TwoPointers/numRange.s: __/TwoPointers/numRange.cpp.s
 
-.PHONY : singleNumberII.s
+.PHONY : __/TwoPointers/numRange.s
 
 # target to generate assembly for a file
-singleNumberII.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/singleNumberII.cpp.s
-.PHONY : singleNumberII.cpp.s
+__/TwoPointers/numRange.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.s
+.PHONY : __/TwoPointers/numRange.cpp.s
+
+divideIntegers.o: divideIntegers.cpp.o
+
+.PHONY : divideIntegers.o
+
+# target to build an object file
+divideIntegers.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/divideIntegers.cpp.o
+.PHONY : divideIntegers.cpp.o
+
+divideIntegers.i: divideIntegers.cpp.i
+
+.PHONY : divideIntegers.i
+
+# target to preprocess a source file
+divideIntegers.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/divideIntegers.cpp.i
+.PHONY : divideIntegers.cpp.i
+
+divideIntegers.s: divideIntegers.cpp.s
+
+.PHONY : divideIntegers.s
+
+# target to generate assembly for a file
+divideIntegers.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/divideIntegers.cpp.s
+.PHONY : divideIntegers.cpp.s
 
 # Help Target
 help:
@@ -211,9 +238,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... singleNumberII.o"
-	@echo "... singleNumberII.i"
-	@echo "... singleNumberII.s"
+	@echo "... __/TwoPointers/numRange.o"
+	@echo "... __/TwoPointers/numRange.i"
+	@echo "... __/TwoPointers/numRange.s"
+	@echo "... divideIntegers.o"
+	@echo "... divideIntegers.i"
+	@echo "... divideIntegers.s"
 .PHONY : help
 
 

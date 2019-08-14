@@ -65,57 +65,57 @@ CMAKE_SOURCE_DIR = /Users/gasanoe/Documents/GitHub/interviewbit
 CMAKE_BINARY_DIR = /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug
 
 #=============================================================================
-# Directory level rules for directory BitManipulation
+# Directory level rules for directory Strings
 
 # Convenience name for "all" pass in the directory.
-BitManipulation/all: BitManipulation/CMakeFiles/curr_problem.dir/all
+Strings/all: Strings/CMakeFiles/curr_problem.dir/all
 
-.PHONY : BitManipulation/all
+.PHONY : Strings/all
 
 # Convenience name for "clean" pass in the directory.
-BitManipulation/clean: BitManipulation/CMakeFiles/curr_problem.dir/clean
+Strings/clean: Strings/CMakeFiles/curr_problem.dir/clean
 
-.PHONY : BitManipulation/clean
+.PHONY : Strings/clean
 
 # Convenience name for "preinstall" pass in the directory.
-BitManipulation/preinstall:
+Strings/preinstall:
 
-.PHONY : BitManipulation/preinstall
+.PHONY : Strings/preinstall
 
 #=============================================================================
-# Target rules for target BitManipulation/CMakeFiles/curr_problem.dir
+# Target rules for target Strings/CMakeFiles/curr_problem.dir
 
 # All Build rule for target.
-BitManipulation/CMakeFiles/curr_problem.dir/all:
-	$(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/depend
-	$(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/build
+Strings/CMakeFiles/curr_problem.dir/all:
+	$(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/depend
+	$(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target curr_problem"
-.PHONY : BitManipulation/CMakeFiles/curr_problem.dir/all
+.PHONY : Strings/CMakeFiles/curr_problem.dir/all
 
 # Include target in all.
-all: BitManipulation/CMakeFiles/curr_problem.dir/all
+all: Strings/CMakeFiles/curr_problem.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-BitManipulation/CMakeFiles/curr_problem.dir/rule: cmake_check_build_system
+Strings/CMakeFiles/curr_problem.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 BitManipulation/CMakeFiles/curr_problem.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 Strings/CMakeFiles/curr_problem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles 0
-.PHONY : BitManipulation/CMakeFiles/curr_problem.dir/rule
+.PHONY : Strings/CMakeFiles/curr_problem.dir/rule
 
 # Convenience name for target.
-curr_problem: BitManipulation/CMakeFiles/curr_problem.dir/rule
+curr_problem: Strings/CMakeFiles/curr_problem.dir/rule
 
 .PHONY : curr_problem
 
 # clean rule for target.
-BitManipulation/CMakeFiles/curr_problem.dir/clean:
-	$(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/clean
-.PHONY : BitManipulation/CMakeFiles/curr_problem.dir/clean
+Strings/CMakeFiles/curr_problem.dir/clean:
+	$(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/clean
+.PHONY : Strings/CMakeFiles/curr_problem.dir/clean
 
 # clean rule for target.
-clean: BitManipulation/CMakeFiles/curr_problem.dir/clean
+clean: Strings/CMakeFiles/curr_problem.dir/clean
 
 .PHONY : clean
 

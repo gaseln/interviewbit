@@ -5,7 +5,7 @@
 		<Option title="interviewbit"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\BitManipulation\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Strings\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug"/>
@@ -78,8 +78,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="curr_problem">
-				<Option output="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/curr_problem" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation"/>
+				<Option output="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/curr_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -88,20 +88,19 @@
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/Makefile&quot;  VERBOSE=1 curr_problem"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/Makefile&quot;  VERBOSE=1 curr_problem"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="curr_problem/fast">
-				<Option output="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/curr_problem" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation"/>
+				<Option output="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/curr_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -110,26 +109,25 @@
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/Makefile&quot;  VERBOSE=1 curr_problem/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/BitManipulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/Makefile&quot;  VERBOSE=1 curr_problem/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/singleNumberII.cpp">
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/CountAndSay.cpp">
 			<Option target="curr_problem"/>
 		</Unit>
 		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/BitManipulation/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\BitManipulation\"/>
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Strings\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

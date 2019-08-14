@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/singleNumberII.cpp.o"
+  "CMakeFiles/curr_problem.dir/divideIntegers.cpp.o"
+  "CMakeFiles/curr_problem.dir/__/TwoPointers/numRange.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

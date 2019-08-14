@@ -166,7 +166,7 @@ curr_problem: cmake_check_build_system
 
 # fast build rule for target.
 curr_problem/fast:
-	$(MAKE) -f BitManipulation/CMakeFiles/curr_problem.dir/build.make BitManipulation/CMakeFiles/curr_problem.dir/build
+	$(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
 # Help Target
