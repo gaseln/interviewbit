@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/CountAndSay.cpp.o"
+  "CMakeFiles/curr_problem.dir/amazing_subarrays.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

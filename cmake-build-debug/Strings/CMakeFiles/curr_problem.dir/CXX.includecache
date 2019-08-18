@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Strings/CountAndSay.cpp
+/Users/gasanoe/Documents/GitHub/interviewbit/Strings/amazing_subarrays.cpp
+string
+-
 iostream
 -
-string
+vector
+-
+algorithm
 -
 

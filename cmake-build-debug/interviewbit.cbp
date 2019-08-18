@@ -120,7 +120,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/CountAndSay.cpp">
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/amazing_subarrays.cpp">
 			<Option target="curr_problem"/>
 		</Unit>
 		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/CMakeLists.txt">

@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-CountAndSay.o: CountAndSay.cpp.o
+amazing_subarrays.o: amazing_subarrays.cpp.o
 
-.PHONY : CountAndSay.o
+.PHONY : amazing_subarrays.o
 
 # target to build an object file
-CountAndSay.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/CountAndSay.cpp.o
-.PHONY : CountAndSay.cpp.o
+amazing_subarrays.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/amazing_subarrays.cpp.o
+.PHONY : amazing_subarrays.cpp.o
 
-CountAndSay.i: CountAndSay.cpp.i
+amazing_subarrays.i: amazing_subarrays.cpp.i
 
-.PHONY : CountAndSay.i
+.PHONY : amazing_subarrays.i
 
 # target to preprocess a source file
-CountAndSay.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/CountAndSay.cpp.i
-.PHONY : CountAndSay.cpp.i
+amazing_subarrays.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/amazing_subarrays.cpp.i
+.PHONY : amazing_subarrays.cpp.i
 
-CountAndSay.s: CountAndSay.cpp.s
+amazing_subarrays.s: amazing_subarrays.cpp.s
 
-.PHONY : CountAndSay.s
+.PHONY : amazing_subarrays.s
 
 # target to generate assembly for a file
-CountAndSay.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/CountAndSay.cpp.s
-.PHONY : CountAndSay.cpp.s
+amazing_subarrays.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/amazing_subarrays.cpp.s
+.PHONY : amazing_subarrays.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... CountAndSay.o"
-	@echo "... CountAndSay.i"
-	@echo "... CountAndSay.s"
+	@echo "... amazing_subarrays.o"
+	@echo "... amazing_subarrays.i"
+	@echo "... amazing_subarrays.s"
 .PHONY : help
 
 
