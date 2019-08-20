@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-amazing_subarrays.o: amazing_subarrays.cpp.o
+shortest_palindrome.o: shortest_palindrome.cpp.o
 
-.PHONY : amazing_subarrays.o
+.PHONY : shortest_palindrome.o
 
 # target to build an object file
-amazing_subarrays.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/amazing_subarrays.cpp.o
-.PHONY : amazing_subarrays.cpp.o
+shortest_palindrome.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.o
+.PHONY : shortest_palindrome.cpp.o
 
-amazing_subarrays.i: amazing_subarrays.cpp.i
+shortest_palindrome.i: shortest_palindrome.cpp.i
 
-.PHONY : amazing_subarrays.i
+.PHONY : shortest_palindrome.i
 
 # target to preprocess a source file
-amazing_subarrays.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/amazing_subarrays.cpp.i
-.PHONY : amazing_subarrays.cpp.i
+shortest_palindrome.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.i
+.PHONY : shortest_palindrome.cpp.i
 
-amazing_subarrays.s: amazing_subarrays.cpp.s
+shortest_palindrome.s: shortest_palindrome.cpp.s
 
-.PHONY : amazing_subarrays.s
+.PHONY : shortest_palindrome.s
 
 # target to generate assembly for a file
-amazing_subarrays.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/amazing_subarrays.cpp.s
-.PHONY : amazing_subarrays.cpp.s
+shortest_palindrome.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.s
+.PHONY : shortest_palindrome.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... amazing_subarrays.o"
-	@echo "... amazing_subarrays.i"
-	@echo "... amazing_subarrays.s"
+	@echo "... shortest_palindrome.o"
+	@echo "... shortest_palindrome.i"
+	@echo "... shortest_palindrome.s"
 .PHONY : help
 
 

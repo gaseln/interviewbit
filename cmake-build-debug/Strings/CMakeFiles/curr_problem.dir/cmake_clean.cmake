@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/amazing_subarrays.cpp.o"
+  "CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )
