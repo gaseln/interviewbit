@@ -57,27 +57,27 @@ include Strings/CMakeFiles/curr_problem.dir/progress.make
 # Include the compile flags for this target's objects.
 include Strings/CMakeFiles/curr_problem.dir/flags.make
 
-Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.o: Strings/CMakeFiles/curr_problem.dir/flags.make
-Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.o: ../Strings/shortest_palindrome.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.o"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/Strings/shortest_palindrome.cpp
+Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.o: Strings/CMakeFiles/curr_problem.dir/flags.make
+Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.o: ../Strings/longest_palindromic_substring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.o"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/Strings/longest_palindromic_substring.cpp
 
-Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.i"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/Strings/shortest_palindrome.cpp > CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.i
+Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.i"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/Strings/longest_palindromic_substring.cpp > CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.i
 
-Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.s"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/Strings/shortest_palindrome.cpp -o CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.s
+Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.s"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/Strings/longest_palindromic_substring.cpp -o CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.s
 
 # Object files for target curr_problem
 curr_problem_OBJECTS = \
-"CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.o"
+"CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.o"
 
 # External object files for target curr_problem
 curr_problem_EXTERNAL_OBJECTS =
 
-Strings/curr_problem: Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.o
+Strings/curr_problem: Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.o
 Strings/curr_problem: Strings/CMakeFiles/curr_problem.dir/build.make
 Strings/curr_problem: Strings/CMakeFiles/curr_problem.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable curr_problem"

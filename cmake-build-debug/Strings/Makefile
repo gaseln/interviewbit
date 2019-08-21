@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-shortest_palindrome.o: shortest_palindrome.cpp.o
+longest_palindromic_substring.o: longest_palindromic_substring.cpp.o
 
-.PHONY : shortest_palindrome.o
+.PHONY : longest_palindromic_substring.o
 
 # target to build an object file
-shortest_palindrome.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.o
-.PHONY : shortest_palindrome.cpp.o
+longest_palindromic_substring.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.o
+.PHONY : longest_palindromic_substring.cpp.o
 
-shortest_palindrome.i: shortest_palindrome.cpp.i
+longest_palindromic_substring.i: longest_palindromic_substring.cpp.i
 
-.PHONY : shortest_palindrome.i
+.PHONY : longest_palindromic_substring.i
 
 # target to preprocess a source file
-shortest_palindrome.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.i
-.PHONY : shortest_palindrome.cpp.i
+longest_palindromic_substring.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.i
+.PHONY : longest_palindromic_substring.cpp.i
 
-shortest_palindrome.s: shortest_palindrome.cpp.s
+longest_palindromic_substring.s: longest_palindromic_substring.cpp.s
 
-.PHONY : shortest_palindrome.s
+.PHONY : longest_palindromic_substring.s
 
 # target to generate assembly for a file
-shortest_palindrome.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/shortest_palindrome.cpp.s
-.PHONY : shortest_palindrome.cpp.s
+longest_palindromic_substring.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.s
+.PHONY : longest_palindromic_substring.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... shortest_palindrome.o"
-	@echo "... shortest_palindrome.i"
-	@echo "... shortest_palindrome.s"
+	@echo "... longest_palindromic_substring.o"
+	@echo "... longest_palindromic_substring.i"
+	@echo "... longest_palindromic_substring.s"
 .PHONY : help
 
 

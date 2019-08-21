@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Strings/shortest_palindrome.cpp
+/Users/gasanoe/Documents/GitHub/interviewbit/Strings/longest_palindromic_substring.cpp
 iostream
+-
+vector
 -
 string
 -
-vector
+algorithm
 -
 
