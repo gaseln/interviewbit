@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c38c05ab-86c5-48e2-8fa2-79c66d31b3a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Strings/strStr_kmp_algorithm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/length_of_last_word.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Strings/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/CXX.includecache" afterDir="false" />
@@ -54,7 +54,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="algorithm" value="1" />
-          <entry key="cpp" value="62" />
+          <entry key="cpp" value="63" />
           <entry key="memory" value="1" />
           <entry key="new" value="1" />
           <entry key="txt" value="20" />
@@ -63,19 +63,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="20" />
-          <entry key="ObjectiveC" value="65" />
+          <entry key="ObjectiveC" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="41234" />
+          <entry key="cpp" value="41433" />
           <entry key="txt" value="288" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="288" />
-          <entry key="ObjectiveC" value="41234" />
+          <entry key="ObjectiveC" value="41433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -88,16 +88,28 @@
         <entry file="file://$PROJECT_DIR$/Strings/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Strings/strStr_kmp_algorithm.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Strings/strStr_kmp_algorithm.cpp">
+        <entry file="file://$PROJECT_DIR$/Strings/length_of_last_word.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -169,8 +181,8 @@
         <option value="$PROJECT_DIR$/Strings/shortest_palindrome.cpp" />
         <option value="$PROJECT_DIR$/Strings/longest_palindromic_substring.cpp" />
         <option value="$PROJECT_DIR$/Strings/strStr_kmp_algorithm.cpp" />
-        <option value="$PROJECT_DIR$/Strings/length_of_last_word.cpp" />
         <option value="$PROJECT_DIR$/Strings/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Strings/length_of_last_word.cpp" />
       </list>
     </option>
   </component>
@@ -310,12 +322,12 @@
       <workItem from="1566127935609" duration="2361000" />
       <workItem from="1566286338885" duration="9615000" />
       <workItem from="1566370644624" duration="2097000" />
-      <workItem from="1566549958967" duration="2674000" />
+      <workItem from="1566549958967" duration="3301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110752000" />
+    <option name="totallyTimeSpent" value="111379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-439" y="-1440" width="2560" height="1440" extended-state="0" />
@@ -644,20 +656,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strings/length_of_last_word.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strings/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Strings/strStr_kmp_algorithm.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/length_of_last_word.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-strStr_kmp_algorithm.o: strStr_kmp_algorithm.cpp.o
+length_of_last_word.o: length_of_last_word.cpp.o
 
-.PHONY : strStr_kmp_algorithm.o
+.PHONY : length_of_last_word.o
 
 # target to build an object file
-strStr_kmp_algorithm.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/strStr_kmp_algorithm.cpp.o
-.PHONY : strStr_kmp_algorithm.cpp.o
+length_of_last_word.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/length_of_last_word.cpp.o
+.PHONY : length_of_last_word.cpp.o
 
-strStr_kmp_algorithm.i: strStr_kmp_algorithm.cpp.i
+length_of_last_word.i: length_of_last_word.cpp.i
 
-.PHONY : strStr_kmp_algorithm.i
+.PHONY : length_of_last_word.i
 
 # target to preprocess a source file
-strStr_kmp_algorithm.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/strStr_kmp_algorithm.cpp.i
-.PHONY : strStr_kmp_algorithm.cpp.i
+length_of_last_word.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/length_of_last_word.cpp.i
+.PHONY : length_of_last_word.cpp.i
 
-strStr_kmp_algorithm.s: strStr_kmp_algorithm.cpp.s
+length_of_last_word.s: length_of_last_word.cpp.s
 
-.PHONY : strStr_kmp_algorithm.s
+.PHONY : length_of_last_word.s
 
 # target to generate assembly for a file
-strStr_kmp_algorithm.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/strStr_kmp_algorithm.cpp.s
-.PHONY : strStr_kmp_algorithm.cpp.s
+length_of_last_word.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/length_of_last_word.cpp.s
+.PHONY : length_of_last_word.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... strStr_kmp_algorithm.o"
-	@echo "... strStr_kmp_algorithm.i"
-	@echo "... strStr_kmp_algorithm.s"
+	@echo "... length_of_last_word.o"
+	@echo "... length_of_last_word.i"
+	@echo "... length_of_last_word.s"
 .PHONY : help
 
 

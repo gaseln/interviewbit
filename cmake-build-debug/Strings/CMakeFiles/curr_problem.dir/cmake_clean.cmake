@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/strStr_kmp_algorithm.cpp.o"
+  "CMakeFiles/curr_problem.dir/length_of_last_word.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )
