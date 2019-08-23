@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Strings/longest_palindromic_substring.cpp
+/Users/gasanoe/Documents/GitHub/interviewbit/Strings/strStr_kmp_algorithm.cpp
 iostream
--
-vector
 -
 string
 -
-algorithm
+vector
 -
 

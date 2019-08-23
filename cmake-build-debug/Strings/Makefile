@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-longest_palindromic_substring.o: longest_palindromic_substring.cpp.o
+strStr_kmp_algorithm.o: strStr_kmp_algorithm.cpp.o
 
-.PHONY : longest_palindromic_substring.o
+.PHONY : strStr_kmp_algorithm.o
 
 # target to build an object file
-longest_palindromic_substring.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.o
-.PHONY : longest_palindromic_substring.cpp.o
+strStr_kmp_algorithm.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/strStr_kmp_algorithm.cpp.o
+.PHONY : strStr_kmp_algorithm.cpp.o
 
-longest_palindromic_substring.i: longest_palindromic_substring.cpp.i
+strStr_kmp_algorithm.i: strStr_kmp_algorithm.cpp.i
 
-.PHONY : longest_palindromic_substring.i
+.PHONY : strStr_kmp_algorithm.i
 
 # target to preprocess a source file
-longest_palindromic_substring.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.i
-.PHONY : longest_palindromic_substring.cpp.i
+strStr_kmp_algorithm.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/strStr_kmp_algorithm.cpp.i
+.PHONY : strStr_kmp_algorithm.cpp.i
 
-longest_palindromic_substring.s: longest_palindromic_substring.cpp.s
+strStr_kmp_algorithm.s: strStr_kmp_algorithm.cpp.s
 
-.PHONY : longest_palindromic_substring.s
+.PHONY : strStr_kmp_algorithm.s
 
 # target to generate assembly for a file
-longest_palindromic_substring.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.s
-.PHONY : longest_palindromic_substring.cpp.s
+strStr_kmp_algorithm.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/strStr_kmp_algorithm.cpp.s
+.PHONY : strStr_kmp_algorithm.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... longest_palindromic_substring.o"
-	@echo "... longest_palindromic_substring.i"
-	@echo "... longest_palindromic_substring.s"
+	@echo "... strStr_kmp_algorithm.o"
+	@echo "... strStr_kmp_algorithm.i"
+	@echo "... strStr_kmp_algorithm.s"
 .PHONY : help
 
 

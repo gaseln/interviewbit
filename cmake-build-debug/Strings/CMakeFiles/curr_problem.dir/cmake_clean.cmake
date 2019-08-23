@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/longest_palindromic_substring.cpp.o"
+  "CMakeFiles/curr_problem.dir/strStr_kmp_algorithm.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )
