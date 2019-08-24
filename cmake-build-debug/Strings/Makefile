@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-length_of_last_word.o: length_of_last_word.cpp.o
+compare_version_numbers.o: compare_version_numbers.cpp.o
 
-.PHONY : length_of_last_word.o
+.PHONY : compare_version_numbers.o
 
 # target to build an object file
-length_of_last_word.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/length_of_last_word.cpp.o
-.PHONY : length_of_last_word.cpp.o
+compare_version_numbers.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/compare_version_numbers.cpp.o
+.PHONY : compare_version_numbers.cpp.o
 
-length_of_last_word.i: length_of_last_word.cpp.i
+compare_version_numbers.i: compare_version_numbers.cpp.i
 
-.PHONY : length_of_last_word.i
+.PHONY : compare_version_numbers.i
 
 # target to preprocess a source file
-length_of_last_word.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/length_of_last_word.cpp.i
-.PHONY : length_of_last_word.cpp.i
+compare_version_numbers.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/compare_version_numbers.cpp.i
+.PHONY : compare_version_numbers.cpp.i
 
-length_of_last_word.s: length_of_last_word.cpp.s
+compare_version_numbers.s: compare_version_numbers.cpp.s
 
-.PHONY : length_of_last_word.s
+.PHONY : compare_version_numbers.s
 
 # target to generate assembly for a file
-length_of_last_word.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/length_of_last_word.cpp.s
-.PHONY : length_of_last_word.cpp.s
+compare_version_numbers.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/compare_version_numbers.cpp.s
+.PHONY : compare_version_numbers.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... length_of_last_word.o"
-	@echo "... length_of_last_word.i"
-	@echo "... length_of_last_word.s"
+	@echo "... compare_version_numbers.o"
+	@echo "... compare_version_numbers.i"
+	@echo "... compare_version_numbers.s"
 .PHONY : help
 
 
