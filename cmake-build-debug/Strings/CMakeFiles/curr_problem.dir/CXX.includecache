@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Strings/compare_version_numbers.cpp
+/Users/gasanoe/Documents/GitHub/interviewbit/Strings/atoi.cpp
 iostream
 -
 string
 -
-cstdlib
+vector
+-
+sstream
 -
 

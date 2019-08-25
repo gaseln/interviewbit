@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c38c05ab-86c5-48e2-8fa2-79c66d31b3a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Strings/compare_version_numbers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/atoi.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Strings/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/DependInfo.cmake" afterDir="false" />
@@ -20,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/curr_problem" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/interviewbit.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/interviewbit.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -39,18 +40,18 @@
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="13" />
           <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="algorithm" value="1" />
-          <entry key="cpp" value="64" />
+          <entry key="cpp" value="65" />
           <entry key="memory" value="1" />
           <entry key="new" value="1" />
           <entry key="txt" value="20" />
@@ -59,19 +60,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="20" />
-          <entry key="ObjectiveC" value="67" />
+          <entry key="ObjectiveC" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="43122" />
+          <entry key="cpp" value="44590" />
           <entry key="txt" value="289" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="289" />
-          <entry key="ObjectiveC" value="43122" />
+          <entry key="ObjectiveC" value="44590" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -90,10 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Strings/compare_version_numbers.cpp">
+        <entry file="file://$PROJECT_DIR$/Strings/atoi.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="435">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -116,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Arrays/MaximumUnsortedSubarray.cpp" />
         <option value="$PROJECT_DIR$/Arrays/FindDuplicateInArray.cpp" />
         <option value="$PROJECT_DIR$/Arrays/MaximumConsecutiveGap.cpp" />
         <option value="$PROJECT_DIR$/Arrays/nextPermutation.cpp" />
@@ -165,8 +165,9 @@
         <option value="$PROJECT_DIR$/Strings/longest_palindromic_substring.cpp" />
         <option value="$PROJECT_DIR$/Strings/strStr_kmp_algorithm.cpp" />
         <option value="$PROJECT_DIR$/Strings/length_of_last_word.cpp" />
-        <option value="$PROJECT_DIR$/Strings/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Strings/compare_version_numbers.cpp" />
+        <option value="$PROJECT_DIR$/Strings/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Strings/atoi.cpp" />
       </list>
     </option>
   </component>
@@ -177,10 +178,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-439" />
-    <option name="y" value="-1440" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -308,27 +307,29 @@
       <workItem from="1566370644624" duration="2097000" />
       <workItem from="1566549958967" duration="3693000" />
       <workItem from="1566642145205" duration="4469000" />
+      <workItem from="1566712881070" duration="4062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116240000" />
+    <option name="totallyTimeSpent" value="120302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-439" y="-1440" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18030183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18253969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26132146" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26123303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32739422" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32706374" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3291536" />
@@ -346,7 +347,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Arrays/setMatrixZeroes.cpp" />
     <entry file="file://$PROJECT_DIR$/Arrays/maxspprod.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -631,9 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,6 +638,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/compare_version_numbers.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -654,10 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strings/compare_version_numbers.cpp">
+    <entry file="file://$PROJECT_DIR$/Strings/atoi.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="435">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

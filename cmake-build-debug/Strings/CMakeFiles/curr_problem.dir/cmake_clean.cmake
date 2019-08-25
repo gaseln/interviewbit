@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/compare_version_numbers.cpp.o"
+  "CMakeFiles/curr_problem.dir/atoi.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

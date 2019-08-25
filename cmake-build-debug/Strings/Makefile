@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-compare_version_numbers.o: compare_version_numbers.cpp.o
+atoi.o: atoi.cpp.o
 
-.PHONY : compare_version_numbers.o
+.PHONY : atoi.o
 
 # target to build an object file
-compare_version_numbers.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/compare_version_numbers.cpp.o
-.PHONY : compare_version_numbers.cpp.o
+atoi.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/atoi.cpp.o
+.PHONY : atoi.cpp.o
 
-compare_version_numbers.i: compare_version_numbers.cpp.i
+atoi.i: atoi.cpp.i
 
-.PHONY : compare_version_numbers.i
+.PHONY : atoi.i
 
 # target to preprocess a source file
-compare_version_numbers.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/compare_version_numbers.cpp.i
-.PHONY : compare_version_numbers.cpp.i
+atoi.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/atoi.cpp.i
+.PHONY : atoi.cpp.i
 
-compare_version_numbers.s: compare_version_numbers.cpp.s
+atoi.s: atoi.cpp.s
 
-.PHONY : compare_version_numbers.s
+.PHONY : atoi.s
 
 # target to generate assembly for a file
-compare_version_numbers.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/compare_version_numbers.cpp.s
-.PHONY : compare_version_numbers.cpp.s
+atoi.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/atoi.cpp.s
+.PHONY : atoi.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... compare_version_numbers.o"
-	@echo "... compare_version_numbers.i"
-	@echo "... compare_version_numbers.s"
+	@echo "... atoi.o"
+	@echo "... atoi.i"
+	@echo "... atoi.s"
 .PHONY : help
 
 

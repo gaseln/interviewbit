@@ -120,7 +120,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/compare_version_numbers.cpp">
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/atoi.cpp">
 			<Option target="curr_problem"/>
 		</Unit>
 		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/CMakeLists.txt">
