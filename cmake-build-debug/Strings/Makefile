@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-atoi.o: atoi.cpp.o
+valid_number.o: valid_number.cpp.o
 
-.PHONY : atoi.o
+.PHONY : valid_number.o
 
 # target to build an object file
-atoi.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/atoi.cpp.o
-.PHONY : atoi.cpp.o
+valid_number.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_number.cpp.o
+.PHONY : valid_number.cpp.o
 
-atoi.i: atoi.cpp.i
+valid_number.i: valid_number.cpp.i
 
-.PHONY : atoi.i
+.PHONY : valid_number.i
 
 # target to preprocess a source file
-atoi.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/atoi.cpp.i
-.PHONY : atoi.cpp.i
+valid_number.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_number.cpp.i
+.PHONY : valid_number.cpp.i
 
-atoi.s: atoi.cpp.s
+valid_number.s: valid_number.cpp.s
 
-.PHONY : atoi.s
+.PHONY : valid_number.s
 
 # target to generate assembly for a file
-atoi.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/atoi.cpp.s
-.PHONY : atoi.cpp.s
+valid_number.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_number.cpp.s
+.PHONY : valid_number.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... atoi.o"
-	@echo "... atoi.i"
-	@echo "... atoi.s"
+	@echo "... valid_number.o"
+	@echo "... valid_number.i"
+	@echo "... valid_number.s"
 .PHONY : help
 
 

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Strings/atoi.cpp
-iostream
--
+/Users/gasanoe/Documents/GitHub/interviewbit/Strings/valid_number.cpp
 string
 -
-vector
+iostream
 -
 sstream
+-
+algorithm
 -
 
