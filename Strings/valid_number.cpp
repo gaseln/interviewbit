@@ -34,7 +34,7 @@ void signEraser(std::string& str) {
     }
 }
 
-bool isNumber(const std::string str) {
+int isNumber(std::string str) {
 
     // reading the first word
 
@@ -92,7 +92,7 @@ bool isNumber(const std::string str) {
         post_point = std::string(d_point_it + 1, first_number.end());
     }
 
-    if (d_point_it != first_number.end() && post_point.empty() && pre_point.empty()) {
+    if (d_point_it != first_number.end() && post_point.empty()) {
         return false;
     }
 
