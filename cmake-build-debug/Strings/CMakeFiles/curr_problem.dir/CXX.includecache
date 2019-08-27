@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Strings/valid_number.cpp
-string
--
+/Users/gasanoe/Documents/GitHub/interviewbit/Strings/valid_ip_adress.cpp
 iostream
 -
-sstream
--
-algorithm
+string
 -
 

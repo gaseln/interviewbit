@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-valid_number.o: valid_number.cpp.o
+valid_ip_adress.o: valid_ip_adress.cpp.o
 
-.PHONY : valid_number.o
+.PHONY : valid_ip_adress.o
 
 # target to build an object file
-valid_number.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_number.cpp.o
-.PHONY : valid_number.cpp.o
+valid_ip_adress.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_ip_adress.cpp.o
+.PHONY : valid_ip_adress.cpp.o
 
-valid_number.i: valid_number.cpp.i
+valid_ip_adress.i: valid_ip_adress.cpp.i
 
-.PHONY : valid_number.i
+.PHONY : valid_ip_adress.i
 
 # target to preprocess a source file
-valid_number.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_number.cpp.i
-.PHONY : valid_number.cpp.i
+valid_ip_adress.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_ip_adress.cpp.i
+.PHONY : valid_ip_adress.cpp.i
 
-valid_number.s: valid_number.cpp.s
+valid_ip_adress.s: valid_ip_adress.cpp.s
 
-.PHONY : valid_number.s
+.PHONY : valid_ip_adress.s
 
 # target to generate assembly for a file
-valid_number.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_number.cpp.s
-.PHONY : valid_number.cpp.s
+valid_ip_adress.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_ip_adress.cpp.s
+.PHONY : valid_ip_adress.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... valid_number.o"
-	@echo "... valid_number.i"
-	@echo "... valid_number.s"
+	@echo "... valid_ip_adress.o"
+	@echo "... valid_ip_adress.i"
+	@echo "... valid_ip_adress.s"
 .PHONY : help
 
 

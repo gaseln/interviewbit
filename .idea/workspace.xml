@@ -12,8 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c38c05ab-86c5-48e2-8fa2-79c66d31b3a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Strings/valid_ip_adress.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings/valid_number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/valid_number.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Strings/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Strings/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interviewbit.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/interviewbit.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,23 +34,23 @@
     <session id="1112972365">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="51" />
+          <entry key="project.closed" value="53" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="8" />
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="13" />
           <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="52" />
+          <entry key="project.opened" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="algorithm" value="2" />
-          <entry key="cpp" value="67" />
+          <entry key="cpp" value="68" />
           <entry key="memory" value="1" />
           <entry key="new" value="1" />
           <entry key="string" value="2" />
@@ -53,19 +60,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="20" />
-          <entry key="ObjectiveC" value="73" />
+          <entry key="ObjectiveC" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="48969" />
+          <entry key="cpp" value="50715" />
           <entry key="txt" value="290" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="290" />
-          <entry key="ObjectiveC" value="48969" />
+          <entry key="ObjectiveC" value="50715" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -78,18 +85,18 @@
         <entry file="file://$PROJECT_DIR$/Strings/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Strings/valid_number.cpp">
+        <entry file="file://$PROJECT_DIR$/Strings/valid_ip_adress.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-246">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Arrays/MaximumConsecutiveGap.cpp" />
         <option value="$PROJECT_DIR$/Arrays/nextPermutation.cpp" />
         <option value="$PROJECT_DIR$/Arrays/mergeIntervals.cpp" />
         <option value="$PROJECT_DIR$/Arrays/mergeOverlappingIntervals.cpp" />
@@ -159,8 +165,9 @@
         <option value="$PROJECT_DIR$/Strings/length_of_last_word.cpp" />
         <option value="$PROJECT_DIR$/Strings/compare_version_numbers.cpp" />
         <option value="$PROJECT_DIR$/Strings/atoi.cpp" />
-        <option value="$PROJECT_DIR$/Strings/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Strings/valid_number.cpp" />
+        <option value="$PROJECT_DIR$/Strings/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Strings/valid_ip_adress.cpp" />
       </list>
     </option>
   </component>
@@ -170,9 +177,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="-22" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1072" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -304,18 +312,18 @@
       <workItem from="1566801899368" duration="5397000" />
       <workItem from="1566817638252" duration="1166000" />
       <workItem from="1566826549503" duration="2142000" />
-      <workItem from="1566885984770" duration="159000" />
+      <workItem from="1566885984770" duration="1498000" />
+      <workItem from="1566900231652" duration="2558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129646000" />
+    <option name="totallyTimeSpent" value="133543000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1892552" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1910867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,13 +352,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Arrays/findPermutation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Arrays/FindDuplicateInArray.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -645,19 +646,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strings/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Strings/valid_number.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
+        <state relative-caret-position="540">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/valid_ip_adress.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
