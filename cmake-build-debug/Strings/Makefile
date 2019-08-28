@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-valid_ip_adress.o: valid_ip_adress.cpp.o
+reverse_the_string.o: reverse_the_string.cpp.o
 
-.PHONY : valid_ip_adress.o
+.PHONY : reverse_the_string.o
 
 # target to build an object file
-valid_ip_adress.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_ip_adress.cpp.o
-.PHONY : valid_ip_adress.cpp.o
+reverse_the_string.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/reverse_the_string.cpp.o
+.PHONY : reverse_the_string.cpp.o
 
-valid_ip_adress.i: valid_ip_adress.cpp.i
+reverse_the_string.i: reverse_the_string.cpp.i
 
-.PHONY : valid_ip_adress.i
+.PHONY : reverse_the_string.i
 
 # target to preprocess a source file
-valid_ip_adress.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_ip_adress.cpp.i
-.PHONY : valid_ip_adress.cpp.i
+reverse_the_string.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/reverse_the_string.cpp.i
+.PHONY : reverse_the_string.cpp.i
 
-valid_ip_adress.s: valid_ip_adress.cpp.s
+reverse_the_string.s: reverse_the_string.cpp.s
 
-.PHONY : valid_ip_adress.s
+.PHONY : reverse_the_string.s
 
 # target to generate assembly for a file
-valid_ip_adress.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/valid_ip_adress.cpp.s
-.PHONY : valid_ip_adress.cpp.s
+reverse_the_string.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/reverse_the_string.cpp.s
+.PHONY : reverse_the_string.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... valid_ip_adress.o"
-	@echo "... valid_ip_adress.i"
-	@echo "... valid_ip_adress.s"
+	@echo "... reverse_the_string.o"
+	@echo "... reverse_the_string.i"
+	@echo "... reverse_the_string.s"
 .PHONY : help
 
 
