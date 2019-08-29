@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-reverse_the_string.o: reverse_the_string.cpp.o
+roman_to_integer.o: roman_to_integer.cpp.o
 
-.PHONY : reverse_the_string.o
+.PHONY : roman_to_integer.o
 
 # target to build an object file
-reverse_the_string.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/reverse_the_string.cpp.o
-.PHONY : reverse_the_string.cpp.o
+roman_to_integer.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/roman_to_integer.cpp.o
+.PHONY : roman_to_integer.cpp.o
 
-reverse_the_string.i: reverse_the_string.cpp.i
+roman_to_integer.i: roman_to_integer.cpp.i
 
-.PHONY : reverse_the_string.i
+.PHONY : roman_to_integer.i
 
 # target to preprocess a source file
-reverse_the_string.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/reverse_the_string.cpp.i
-.PHONY : reverse_the_string.cpp.i
+roman_to_integer.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/roman_to_integer.cpp.i
+.PHONY : roman_to_integer.cpp.i
 
-reverse_the_string.s: reverse_the_string.cpp.s
+roman_to_integer.s: roman_to_integer.cpp.s
 
-.PHONY : reverse_the_string.s
+.PHONY : roman_to_integer.s
 
 # target to generate assembly for a file
-reverse_the_string.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/reverse_the_string.cpp.s
-.PHONY : reverse_the_string.cpp.s
+roman_to_integer.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/roman_to_integer.cpp.s
+.PHONY : roman_to_integer.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... reverse_the_string.o"
-	@echo "... reverse_the_string.i"
-	@echo "... reverse_the_string.s"
+	@echo "... roman_to_integer.o"
+	@echo "... roman_to_integer.i"
+	@echo "... roman_to_integer.s"
 .PHONY : help
 
 
