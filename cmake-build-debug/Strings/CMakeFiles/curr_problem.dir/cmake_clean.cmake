@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/roman_to_integer.cpp.o"
+  "CMakeFiles/curr_problem.dir/integer_to_roman.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

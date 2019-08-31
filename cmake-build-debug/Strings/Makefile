@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-roman_to_integer.o: roman_to_integer.cpp.o
+integer_to_roman.o: integer_to_roman.cpp.o
 
-.PHONY : roman_to_integer.o
+.PHONY : integer_to_roman.o
 
 # target to build an object file
-roman_to_integer.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/roman_to_integer.cpp.o
-.PHONY : roman_to_integer.cpp.o
+integer_to_roman.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/integer_to_roman.cpp.o
+.PHONY : integer_to_roman.cpp.o
 
-roman_to_integer.i: roman_to_integer.cpp.i
+integer_to_roman.i: integer_to_roman.cpp.i
 
-.PHONY : roman_to_integer.i
+.PHONY : integer_to_roman.i
 
 # target to preprocess a source file
-roman_to_integer.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/roman_to_integer.cpp.i
-.PHONY : roman_to_integer.cpp.i
+integer_to_roman.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/integer_to_roman.cpp.i
+.PHONY : integer_to_roman.cpp.i
 
-roman_to_integer.s: roman_to_integer.cpp.s
+integer_to_roman.s: integer_to_roman.cpp.s
 
-.PHONY : roman_to_integer.s
+.PHONY : integer_to_roman.s
 
 # target to generate assembly for a file
-roman_to_integer.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/roman_to_integer.cpp.s
-.PHONY : roman_to_integer.cpp.s
+integer_to_roman.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/integer_to_roman.cpp.s
+.PHONY : integer_to_roman.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... roman_to_integer.o"
-	@echo "... roman_to_integer.i"
-	@echo "... roman_to_integer.s"
+	@echo "... integer_to_roman.o"
+	@echo "... integer_to_roman.i"
+	@echo "... integer_to_roman.s"
 .PHONY : help
 
 
