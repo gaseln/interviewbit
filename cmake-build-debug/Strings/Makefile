@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-integer_to_roman.o: integer_to_roman.cpp.o
+add_binary.o: add_binary.cpp.o
 
-.PHONY : integer_to_roman.o
+.PHONY : add_binary.o
 
 # target to build an object file
-integer_to_roman.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/integer_to_roman.cpp.o
-.PHONY : integer_to_roman.cpp.o
+add_binary.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/add_binary.cpp.o
+.PHONY : add_binary.cpp.o
 
-integer_to_roman.i: integer_to_roman.cpp.i
+add_binary.i: add_binary.cpp.i
 
-.PHONY : integer_to_roman.i
+.PHONY : add_binary.i
 
 # target to preprocess a source file
-integer_to_roman.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/integer_to_roman.cpp.i
-.PHONY : integer_to_roman.cpp.i
+add_binary.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/add_binary.cpp.i
+.PHONY : add_binary.cpp.i
 
-integer_to_roman.s: integer_to_roman.cpp.s
+add_binary.s: add_binary.cpp.s
 
-.PHONY : integer_to_roman.s
+.PHONY : add_binary.s
 
 # target to generate assembly for a file
-integer_to_roman.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/integer_to_roman.cpp.s
-.PHONY : integer_to_roman.cpp.s
+add_binary.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/add_binary.cpp.s
+.PHONY : add_binary.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... integer_to_roman.o"
-	@echo "... integer_to_roman.i"
-	@echo "... integer_to_roman.s"
+	@echo "... add_binary.o"
+	@echo "... add_binary.i"
+	@echo "... add_binary.s"
 .PHONY : help
 
 
