@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/multipleStrings.cpp.o"
+  "CMakeFiles/curr_problem.dir/ZigZagString.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

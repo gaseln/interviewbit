@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-multipleStrings.o: multipleStrings.cpp.o
+ZigZagString.o: ZigZagString.cpp.o
 
-.PHONY : multipleStrings.o
+.PHONY : ZigZagString.o
 
 # target to build an object file
-multipleStrings.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/multipleStrings.cpp.o
-.PHONY : multipleStrings.cpp.o
+ZigZagString.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/ZigZagString.cpp.o
+.PHONY : ZigZagString.cpp.o
 
-multipleStrings.i: multipleStrings.cpp.i
+ZigZagString.i: ZigZagString.cpp.i
 
-.PHONY : multipleStrings.i
+.PHONY : ZigZagString.i
 
 # target to preprocess a source file
-multipleStrings.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/multipleStrings.cpp.i
-.PHONY : multipleStrings.cpp.i
+ZigZagString.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/ZigZagString.cpp.i
+.PHONY : ZigZagString.cpp.i
 
-multipleStrings.s: multipleStrings.cpp.s
+ZigZagString.s: ZigZagString.cpp.s
 
-.PHONY : multipleStrings.s
+.PHONY : ZigZagString.s
 
 # target to generate assembly for a file
-multipleStrings.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/multipleStrings.cpp.s
-.PHONY : multipleStrings.cpp.s
+ZigZagString.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/ZigZagString.cpp.s
+.PHONY : ZigZagString.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... multipleStrings.o"
-	@echo "... multipleStrings.i"
-	@echo "... multipleStrings.s"
+	@echo "... ZigZagString.o"
+	@echo "... ZigZagString.i"
+	@echo "... ZigZagString.s"
 .PHONY : help
 
 
