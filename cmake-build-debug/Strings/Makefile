@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-add_binary.o: add_binary.cpp.o
+power_of_two.o: power_of_two.cpp.o
 
-.PHONY : add_binary.o
+.PHONY : power_of_two.o
 
 # target to build an object file
-add_binary.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/add_binary.cpp.o
-.PHONY : add_binary.cpp.o
+power_of_two.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/power_of_two.cpp.o
+.PHONY : power_of_two.cpp.o
 
-add_binary.i: add_binary.cpp.i
+power_of_two.i: power_of_two.cpp.i
 
-.PHONY : add_binary.i
+.PHONY : power_of_two.i
 
 # target to preprocess a source file
-add_binary.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/add_binary.cpp.i
-.PHONY : add_binary.cpp.i
+power_of_two.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/power_of_two.cpp.i
+.PHONY : power_of_two.cpp.i
 
-add_binary.s: add_binary.cpp.s
+power_of_two.s: power_of_two.cpp.s
 
-.PHONY : add_binary.s
+.PHONY : power_of_two.s
 
 # target to generate assembly for a file
-add_binary.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/add_binary.cpp.s
-.PHONY : add_binary.cpp.s
+power_of_two.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/power_of_two.cpp.s
+.PHONY : power_of_two.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... add_binary.o"
-	@echo "... add_binary.i"
-	@echo "... add_binary.s"
+	@echo "... power_of_two.o"
+	@echo "... power_of_two.i"
+	@echo "... power_of_two.s"
 .PHONY : help
 
 

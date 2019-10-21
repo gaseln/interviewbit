@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Strings/add_binary.cpp
+/Users/gasanoe/Documents/GitHub/interviewbit/Strings/power_of_two.cpp
 iostream
 -
 string
--
-algorithm
 -
 
