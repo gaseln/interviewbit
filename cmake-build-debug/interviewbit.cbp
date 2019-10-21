@@ -120,7 +120,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/power_of_two.cpp">
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/multipleStrings.cpp">
 			<Option target="curr_problem"/>
 		</Unit>
 		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/CMakeLists.txt">

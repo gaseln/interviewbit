@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/power_of_two.cpp.o"
+  "CMakeFiles/curr_problem.dir/multipleStrings.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

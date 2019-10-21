@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-power_of_two.o: power_of_two.cpp.o
+multipleStrings.o: multipleStrings.cpp.o
 
-.PHONY : power_of_two.o
+.PHONY : multipleStrings.o
 
 # target to build an object file
-power_of_two.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/power_of_two.cpp.o
-.PHONY : power_of_two.cpp.o
+multipleStrings.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/multipleStrings.cpp.o
+.PHONY : multipleStrings.cpp.o
 
-power_of_two.i: power_of_two.cpp.i
+multipleStrings.i: multipleStrings.cpp.i
 
-.PHONY : power_of_two.i
+.PHONY : multipleStrings.i
 
 # target to preprocess a source file
-power_of_two.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/power_of_two.cpp.i
-.PHONY : power_of_two.cpp.i
+multipleStrings.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/multipleStrings.cpp.i
+.PHONY : multipleStrings.cpp.i
 
-power_of_two.s: power_of_two.cpp.s
+multipleStrings.s: multipleStrings.cpp.s
 
-.PHONY : power_of_two.s
+.PHONY : multipleStrings.s
 
 # target to generate assembly for a file
-power_of_two.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/power_of_two.cpp.s
-.PHONY : power_of_two.cpp.s
+multipleStrings.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/multipleStrings.cpp.s
+.PHONY : multipleStrings.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... power_of_two.o"
-	@echo "... power_of_two.i"
-	@echo "... power_of_two.s"
+	@echo "... multipleStrings.o"
+	@echo "... multipleStrings.i"
+	@echo "... multipleStrings.s"
 .PHONY : help
 
 
