@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-ZigZagString.o: ZigZagString.cpp.o
+justifiedText.o: justifiedText.cpp.o
 
-.PHONY : ZigZagString.o
+.PHONY : justifiedText.o
 
 # target to build an object file
-ZigZagString.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/ZigZagString.cpp.o
-.PHONY : ZigZagString.cpp.o
+justifiedText.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/justifiedText.cpp.o
+.PHONY : justifiedText.cpp.o
 
-ZigZagString.i: ZigZagString.cpp.i
+justifiedText.i: justifiedText.cpp.i
 
-.PHONY : ZigZagString.i
+.PHONY : justifiedText.i
 
 # target to preprocess a source file
-ZigZagString.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/ZigZagString.cpp.i
-.PHONY : ZigZagString.cpp.i
+justifiedText.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/justifiedText.cpp.i
+.PHONY : justifiedText.cpp.i
 
-ZigZagString.s: ZigZagString.cpp.s
+justifiedText.s: justifiedText.cpp.s
 
-.PHONY : ZigZagString.s
+.PHONY : justifiedText.s
 
 # target to generate assembly for a file
-ZigZagString.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/ZigZagString.cpp.s
-.PHONY : ZigZagString.cpp.s
+justifiedText.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/justifiedText.cpp.s
+.PHONY : justifiedText.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... ZigZagString.o"
-	@echo "... ZigZagString.i"
-	@echo "... ZigZagString.s"
+	@echo "... justifiedText.o"
+	@echo "... justifiedText.i"
+	@echo "... justifiedText.s"
 .PHONY : help
 
 

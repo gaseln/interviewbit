@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/Strings/ZigZagString.cpp
+/Users/gasanoe/Documents/GitHub/interviewbit/Strings/justifiedText.cpp
 iostream
+-
+vector
 -
 string
 -

@@ -120,7 +120,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/ZigZagString.cpp">
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/Strings/justifiedText.cpp">
 			<Option target="curr_problem"/>
 		</Unit>
 		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/CMakeLists.txt">
