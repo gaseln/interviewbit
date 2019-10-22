@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/MergeTwoSortedList.cpp
+/Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/intersectionOfTwoSortedArrays.cpp
 iostream
 -
 vector

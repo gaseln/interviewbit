@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.o"
+  "CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.o"
   "curr_problem.pdb"
   "curr_problem"
 )

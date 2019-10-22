@@ -171,32 +171,32 @@ curr_problem/fast:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
-MergeTwoSortedList.o: MergeTwoSortedList.cpp.o
+intersectionOfTwoSortedArrays.o: intersectionOfTwoSortedArrays.cpp.o
 
-.PHONY : MergeTwoSortedList.o
+.PHONY : intersectionOfTwoSortedArrays.o
 
 # target to build an object file
-MergeTwoSortedList.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.o
-.PHONY : MergeTwoSortedList.cpp.o
+intersectionOfTwoSortedArrays.cpp.o:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.o
+.PHONY : intersectionOfTwoSortedArrays.cpp.o
 
-MergeTwoSortedList.i: MergeTwoSortedList.cpp.i
+intersectionOfTwoSortedArrays.i: intersectionOfTwoSortedArrays.cpp.i
 
-.PHONY : MergeTwoSortedList.i
+.PHONY : intersectionOfTwoSortedArrays.i
 
 # target to preprocess a source file
-MergeTwoSortedList.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.i
-.PHONY : MergeTwoSortedList.cpp.i
+intersectionOfTwoSortedArrays.cpp.i:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.i
+.PHONY : intersectionOfTwoSortedArrays.cpp.i
 
-MergeTwoSortedList.s: MergeTwoSortedList.cpp.s
+intersectionOfTwoSortedArrays.s: intersectionOfTwoSortedArrays.cpp.s
 
-.PHONY : MergeTwoSortedList.s
+.PHONY : intersectionOfTwoSortedArrays.s
 
 # target to generate assembly for a file
-MergeTwoSortedList.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.s
-.PHONY : MergeTwoSortedList.cpp.s
+intersectionOfTwoSortedArrays.cpp.s:
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.s
+.PHONY : intersectionOfTwoSortedArrays.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... curr_problem"
-	@echo "... MergeTwoSortedList.o"
-	@echo "... MergeTwoSortedList.i"
-	@echo "... MergeTwoSortedList.s"
+	@echo "... intersectionOfTwoSortedArrays.o"
+	@echo "... intersectionOfTwoSortedArrays.i"
+	@echo "... intersectionOfTwoSortedArrays.s"
 .PHONY : help
 
 

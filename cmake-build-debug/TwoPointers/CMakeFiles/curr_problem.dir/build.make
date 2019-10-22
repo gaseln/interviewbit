@@ -57,27 +57,27 @@ include TwoPointers/CMakeFiles/curr_problem.dir/progress.make
 # Include the compile flags for this target's objects.
 include TwoPointers/CMakeFiles/curr_problem.dir/flags.make
 
-TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.o: TwoPointers/CMakeFiles/curr_problem.dir/flags.make
-TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.o: ../TwoPointers/MergeTwoSortedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.o"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/MergeTwoSortedList.cpp
+TwoPointers/CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.o: TwoPointers/CMakeFiles/curr_problem.dir/flags.make
+TwoPointers/CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.o: ../TwoPointers/intersectionOfTwoSortedArrays.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TwoPointers/CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.o"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.o -c /Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/intersectionOfTwoSortedArrays.cpp
 
-TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.i"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/MergeTwoSortedList.cpp > CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.i
+TwoPointers/CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.i"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/intersectionOfTwoSortedArrays.cpp > CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.i
 
-TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.s"
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/MergeTwoSortedList.cpp -o CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.s
+TwoPointers/CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.s"
+	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/intersectionOfTwoSortedArrays.cpp -o CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.s
 
 # Object files for target curr_problem
 curr_problem_OBJECTS = \
-"CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.o"
+"CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.o"
 
 # External object files for target curr_problem
 curr_problem_EXTERNAL_OBJECTS =
 
-TwoPointers/curr_problem: TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.o
+TwoPointers/curr_problem: TwoPointers/CMakeFiles/curr_problem.dir/intersectionOfTwoSortedArrays.cpp.o
 TwoPointers/curr_problem: TwoPointers/CMakeFiles/curr_problem.dir/build.make
 TwoPointers/curr_problem: TwoPointers/CMakeFiles/curr_problem.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable curr_problem"

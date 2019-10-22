@@ -120,7 +120,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/MergeTwoSortedList.cpp">
+		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/intersectionOfTwoSortedArrays.cpp">
 			<Option target="curr_problem"/>
 		</Unit>
 		<Unit filename="/Users/gasanoe/Documents/GitHub/interviewbit/CMakeLists.txt">
