@@ -166,7 +166,7 @@ curr_problem: cmake_check_build_system
 
 # fast build rule for target.
 curr_problem/fast:
-	$(MAKE) -f Strings/CMakeFiles/curr_problem.dir/build.make Strings/CMakeFiles/curr_problem.dir/build
+	$(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/build
 .PHONY : curr_problem/fast
 
 # Help Target

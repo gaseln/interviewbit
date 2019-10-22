@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
 
-void merge(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n) {
+void merge(std::vector<int>& nums1, std::vector<int>& nums2) {
+    int m = nums1.size();
+    int n = nums2.size();
     std::vector<int> res;
     int ind1 = 0;
     int ind2 = 0;
@@ -26,12 +28,15 @@ void merge(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n) {
     nums1 = res;
 }
 
+
 int main() {
+
     std::vector<int> A = {1, 2, 4, 6, 10};
     std::vector<int> B = {1, 2, 3, 7, 9};
-    merge(A, 5, B, 5);
+    merge(A, B);
     for (auto el : A) {
         std::cout << el << " ";
     }
+
     return 0;
 }

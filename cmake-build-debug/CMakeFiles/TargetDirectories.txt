@@ -4,10 +4,10 @@
 /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles/list_install_components.dir
 /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/CMakeFiles/install/local.dir
-/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/CMakeFiles/install/strip.dir
-/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/CMakeFiles/install.dir
-/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/CMakeFiles/list_install_components.dir
-/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/CMakeFiles/rebuild_cache.dir
-/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/CMakeFiles/edit_cache.dir
-/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/Strings/CMakeFiles/curr_problem.dir
+/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers/CMakeFiles/install/local.dir
+/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers/CMakeFiles/install/strip.dir
+/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers/CMakeFiles/install.dir
+/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers/CMakeFiles/list_install_components.dir
+/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers/CMakeFiles/rebuild_cache.dir
+/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers/CMakeFiles/edit_cache.dir
+/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers/CMakeFiles/curr_problem.dir

@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/gasanoe/Documents/GitHub/interviewbit/TwoPointers/MergeTwoSortedList.cpp" "/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.o"
-  "/Users/gasanoe/Documents/GitHub/interviewbit/Strings/palindrome_string.cpp" "/Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug/TwoPointers/CMakeFiles/curr_problem.dir/__/Strings/palindrome_string.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

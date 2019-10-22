@@ -198,33 +198,6 @@ MergeTwoSortedList.cpp.s:
 	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/MergeTwoSortedList.cpp.s
 .PHONY : MergeTwoSortedList.cpp.s
 
-__/Strings/palindrome_string.o: __/Strings/palindrome_string.cpp.o
-
-.PHONY : __/Strings/palindrome_string.o
-
-# target to build an object file
-__/Strings/palindrome_string.cpp.o:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/__/Strings/palindrome_string.cpp.o
-.PHONY : __/Strings/palindrome_string.cpp.o
-
-__/Strings/palindrome_string.i: __/Strings/palindrome_string.cpp.i
-
-.PHONY : __/Strings/palindrome_string.i
-
-# target to preprocess a source file
-__/Strings/palindrome_string.cpp.i:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/__/Strings/palindrome_string.cpp.i
-.PHONY : __/Strings/palindrome_string.cpp.i
-
-__/Strings/palindrome_string.s: __/Strings/palindrome_string.cpp.s
-
-.PHONY : __/Strings/palindrome_string.s
-
-# target to generate assembly for a file
-__/Strings/palindrome_string.cpp.s:
-	cd /Users/gasanoe/Documents/GitHub/interviewbit/cmake-build-debug && $(MAKE) -f TwoPointers/CMakeFiles/curr_problem.dir/build.make TwoPointers/CMakeFiles/curr_problem.dir/__/Strings/palindrome_string.cpp.s
-.PHONY : __/Strings/palindrome_string.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -241,9 +214,6 @@ help:
 	@echo "... MergeTwoSortedList.o"
 	@echo "... MergeTwoSortedList.i"
 	@echo "... MergeTwoSortedList.s"
-	@echo "... __/Strings/palindrome_string.o"
-	@echo "... __/Strings/palindrome_string.i"
-	@echo "... __/Strings/palindrome_string.s"
 .PHONY : help
 
 
