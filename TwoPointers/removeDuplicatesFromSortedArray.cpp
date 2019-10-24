@@ -21,7 +21,7 @@ int removeDuplicates(std::vector<int>& nums) {
 }
 
 int main() {
-    std::vector<int> A = {1, 1, 2};
+    std::vector<int> A = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3};
     std::cout << removeDuplicates(A);
     return 0;
 }

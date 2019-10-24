@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="interviewbit" targetName="curr_problem" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c38c05ab-86c5-48e2-8fa2-79c66d31b3a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/TwoPointers/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TwoPointers/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoPointers/removeDuplicatesFromSortedArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TwoPointers/removeDuplicatesFromSortedArray.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1112972365">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="67" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="15" />
+          <entry key="project.open.time.6" value="8" />
+          <entry key="project.open.time.7" value="11" />
+          <entry key="project.open.time.8" value="13" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="68" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="algorithm" value="2" />
+          <entry key="cpp" value="83" />
+          <entry key="memory" value="1" />
+          <entry key="new" value="1" />
+          <entry key="string" value="2" />
+          <entry key="txt" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="23" />
+          <entry key="ObjectiveC" value="89" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="63799" />
+          <entry key="txt" value="296" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="296" />
+          <entry key="ObjectiveC" value="63799" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TwoPointers/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TwoPointers/removeDuplicatesFromSortedArrayII.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" selection-start-line="4" selection-end-line="42" selection-end-column="1" />
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>big_jum</find>
+      <find>long_jumpp</find>
+      <find>short_jump</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>short_jump</replace>
+      <replace>long_jump</replace>
+      <replace>second_jump</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BinarySearch/PaintingProblem.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/findMedian.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/books.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/SortedInsertPosition.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/SearchForARange.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/MatrixSearch.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/RotatedSortedArraySearch.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/MedianOfArray.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/p1.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/p2.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/p3.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/power_function.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/BitManipulation/minXORvalue.cpp" />
+        <option value="$PROJECT_DIR$/BitManipulation/numberof1.cpp" />
+        <option value="$PROJECT_DIR$/BitManipulation/ReverseBits.cpp" />
+        <option value="$PROJECT_DIR$/BitManipulation/BitSumPairwise.cpp" />
+        <option value="$PROJECT_DIR$/BitManipulation/singleNumber.cpp" />
+        <option value="$PROJECT_DIR$/BitManipulation/singleNumberII.cpp" />
+        <option value="$PROJECT_DIR$/BitManipulation/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/BitManipulation/divideIntegers.cpp" />
+        <option value="$PROJECT_DIR$/TwoPointers/numRange.cpp" />
+        <option value="$PROJECT_DIR$/Strings/palindrome_string.cpp" />
+        <option value="$PROJECT_DIR$/Strings/longest_common_prefix.cpp" />
+        <option value="$PROJECT_DIR$/Strings/CountAndSay.cpp" />
+        <option value="$PROJECT_DIR$/Strings/amazing_subarrays.cpp" />
+        <option value="$PROJECT_DIR$/Strings/shortest_palindrome.cpp" />
+        <option value="$PROJECT_DIR$/Strings/longest_palindromic_substring.cpp" />
+        <option value="$PROJECT_DIR$/Strings/strStr_kmp_algorithm.cpp" />
+        <option value="$PROJECT_DIR$/Strings/length_of_last_word.cpp" />
+        <option value="$PROJECT_DIR$/Strings/compare_version_numbers.cpp" />
+        <option value="$PROJECT_DIR$/Strings/atoi.cpp" />
+        <option value="$PROJECT_DIR$/Strings/valid_number.cpp" />
+        <option value="$PROJECT_DIR$/Strings/valid_ip_adress.cpp" />
+        <option value="$PROJECT_DIR$/Strings/reverse_the_string.cpp" />
+        <option value="$PROJECT_DIR$/Strings/roman_to_integer.cpp" />
+        <option value="$PROJECT_DIR$/Strings/integer_to_roman.cpp" />
+        <option value="$PROJECT_DIR$/Strings/add_binary.cpp" />
+        <option value="$PROJECT_DIR$/Strings/power_of_two.cpp" />
+        <option value="$PROJECT_DIR$/Strings/multipleStrings.cpp" />
+        <option value="$PROJECT_DIR$/Strings/ZigZagString.cpp" />
+        <option value="$PROJECT_DIR$/Strings/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Strings/justifiedText.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/TwoPointers/MergeTwoSortedList.cpp" />
+        <option value="$PROJECT_DIR$/TwoPointers/intersectionOfTwoSortedArrays.cpp" />
+        <option value="$PROJECT_DIR$/TwoPointers/minimizeTheAbsoluteDifference.cpp" />
+        <option value="$PROJECT_DIR$/TwoPointers/removeElementFromArray.cpp" />
+        <option value="$PROJECT_DIR$/TwoPointers/removeDuplicatesFromSortedArray.cpp" />
+        <option value="$PROJECT_DIR$/TwoPointers/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/TwoPointers/removeDuplicatesFromSortedArrayII.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="-22" />
+    <option name="width" value="1680" />
+    <option name="height" value="1072" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="interviewbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviewbit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interviewbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviewbit" type="462c0819:PsiDirectoryNode" />
+              <item name="TwoPointers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Strings" />
+      <recent name="$PROJECT_DIR$/Binary Search" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.curr_problem">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="curr_problem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="interviewbit" TARGET_NAME="curr_problem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="interviewbit" RUN_TARGET_NAME="curr_problem">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.curr_problem" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c38c05ab-86c5-48e2-8fa2-79c66d31b3a8" name="Default Changelist" comment="" />
+      <created>1537813445549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537813445549</updated>
+      <workItem from="1537813447148" duration="6560000" />
+      <workItem from="1537884138093" duration="5991000" />
+      <workItem from="1537970073745" duration="16087000" />
+      <workItem from="1538303869234" duration="1561000" />
+      <workItem from="1538413302698" duration="586000" />
+      <workItem from="1539364015005" duration="2000" />
+      <workItem from="1543746162363" duration="1261000" />
+      <workItem from="1547733179545" duration="1149000" />
+      <workItem from="1547789799673" duration="5001000" />
+      <workItem from="1547887606304" duration="6235000" />
+      <workItem from="1548139029507" duration="476000" />
+      <workItem from="1548424153902" duration="283000" />
+      <workItem from="1548781277170" duration="830000" />
+      <workItem from="1551024172871" duration="1966000" />
+      <workItem from="1553859292647" duration="6630000" />
+      <workItem from="1553868439661" duration="1051000" />
+      <workItem from="1553931096184" duration="3147000" />
+      <workItem from="1553956215446" duration="917000" />
+      <workItem from="1553977559631" duration="14000" />
+      <workItem from="1554011772804" duration="3346000" />
+      <workItem from="1554140230999" duration="841000" />
+      <workItem from="1554198539034" duration="815000" />
+      <workItem from="1554227684050" duration="586000" />
+      <workItem from="1554316086494" duration="449000" />
+      <workItem from="1554537052678" duration="9907000" />
+      <workItem from="1554565934141" duration="445000" />
+      <workItem from="1554568542352" duration="488000" />
+      <workItem from="1555222590267" duration="1025000" />
+      <workItem from="1555313341900" duration="1903000" />
+      <workItem from="1555341454003" duration="1041000" />
+      <workItem from="1555397620624" duration="1936000" />
+      <workItem from="1555416215241" duration="658000" />
+      <workItem from="1555570120688" duration="1054000" />
+      <workItem from="1555659582669" duration="2218000" />
+      <workItem from="1555662100772" duration="203000" />
+      <workItem from="1556467129583" duration="230000" />
+      <workItem from="1556949155561" duration="104000" />
+      <workItem from="1557912537835" duration="429000" />
+      <workItem from="1559537866046" duration="1319000" />
+      <workItem from="1559722051887" duration="408000" />
+      <workItem from="1563398184558" duration="926000" />
+      <workItem from="1565790085233" duration="3927000" />
+      <workItem from="1566127935609" duration="2361000" />
+      <workItem from="1566286338885" duration="9615000" />
+      <workItem from="1566370644624" duration="2097000" />
+      <workItem from="1566549958967" duration="3693000" />
+      <workItem from="1566642145205" duration="4469000" />
+      <workItem from="1566712881070" duration="4542000" />
+      <workItem from="1566801899368" duration="5397000" />
+      <workItem from="1566817638252" duration="1166000" />
+      <workItem from="1566826549503" duration="2142000" />
+      <workItem from="1566885984770" duration="1498000" />
+      <workItem from="1566900231652" duration="2558000" />
+      <workItem from="1566995846379" duration="2015000" />
+      <workItem from="1567100439007" duration="1841000" />
+      <workItem from="1567270976588" duration="813000" />
+      <workItem from="1568100695028" duration="148000" />
+      <workItem from="1568101643916" duration="411000" />
+      <workItem from="1568534948770" duration="918000" />
+      <workItem from="1569139544075" duration="608000" />
+      <workItem from="1571598896094" duration="1044000" />
+      <workItem from="1571636793958" duration="5653000" />
+      <workItem from="1571662565818" duration="2490000" />
+      <workItem from="1571728265800" duration="4809000" />
+      <workItem from="1571771435370" duration="1886000" />
+      <workItem from="1571810618078" duration="3147000" />
+      <workItem from="1571902401252" duration="1919000" />
+      <workItem from="1571912889003" duration="761000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="162006000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17868339" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3260188" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23301986" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3291536" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.20794149" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BinarySearch/RotatedSortedArraySearch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" selection-start-line="3" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/MedianOfArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/p1.cpp" />
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/p2.cpp" />
+    <entry file="file://$PROJECT_DIR$/BinarySearch/p3.cpp" />
+    <entry file="file://$PROJECT_DIR$/BinarySearch/power_function.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/minXORvalue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/numberof1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/ReverseBits.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/BitSumPairwise.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/singleNumberII.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/singleNumber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numRange.cpp" />
+    <entry file="file://$PROJECT_DIR$/BitManipulation/divideIntegers.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointers/numRange.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="2207" selection-start-line="2207" selection-end-line="2207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/longest_common_prefix.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/CountAndSay.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/amazing_subarrays.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/shortest palindrome.cpp" />
+    <entry file="file://$PROJECT_DIR$/Strings/palindrome_string.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/longest_palindromic_substring.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="939">
+          <caret line="116" column="27" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/shortest_palindrome.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="70" column="35" selection-start-line="58" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/strStr_kmp_algorithm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/length_of_last_word.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/compare_version_numbers.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/atoi.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="903" selection-start-line="903" selection-end-line="903" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="1801" selection-start-line="1801" selection-end-line="1801" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/valid_number.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/valid_ip_adress.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/reverse_the_string.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/roman_to_integer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/integer_to_roman.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/add_binary.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/power_of_two.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/ZigZagString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/justifiedText.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/multipleStrings.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointers/MergeTwoSortedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointers/intersectionOfTwoSortedArrays.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointers/minimizeTheAbsoluteDifference.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointers/removeElementFromArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointers/removeDuplicatesFromSortedArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointers/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointers/removeDuplicatesFromSortedArrayII.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
