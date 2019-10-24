@@ -3,3 +3,5 @@ cmake-build-debug/Arrays cmake-build-debug/BinarySearch cmake-build-debug/BitMan
 cmake-build-debug/Arrays cmake-build-debug/BinarySearch cmake-build-debug/BitManipulation cmake-build-debug/CMakeCache.txt cmake-build-debug/CMakeFiles cmake-build-debug/Makefile cmake-build-debug/Strings cmake-build-debug/TwoPointers cmake-build-debug/cmake_install.cmake cmake-build-debug/interviewbit.cbp
 idea/*
 .idea/codeStyles .idea/inspectionProfiles .idea/interviewbit.iml .idea/misc.xml .idea/modules.xml .idea/vcs.xml .idea/workspace.xml
+cmake-build-debug/
+.idea/
