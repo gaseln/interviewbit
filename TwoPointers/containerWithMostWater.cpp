@@ -47,7 +47,7 @@ int maxAreaLR(std::vector<int>& height) {
     for (int ind = 1; ind < height.size(); ++ind) {
         auto max_ind = binarySearch(maxs, height[ind]);
         max = std::max(max, (ind - maxs_ind[max_ind]) * std::min(height[ind], maxs[max_ind]));
-        
+
         if (height[ind] > maxs[maxs.size() - 1]) {
             maxs.push_back(height[ind]);
             maxs_ind.push_back(ind);
