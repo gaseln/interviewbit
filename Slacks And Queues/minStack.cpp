@@ -3,46 +3,38 @@
 #include <vector>
 #include <set>
 
-class MinStack {
-public:
-    MinStack() {
-        stack.clear();
-        set_for_mins.clear();
-    }
-    void push(int x) {
-        stack.push_back(x);
-        set_for_mins.insert(x);
-        current_min = *set_for_mins.begin();
-    }
+std::stack<int> s1;
+std::stack<int> s2;
 
-    void pop() {
-        if (!stack.empty()) {
-            auto element = stack.back();
-            stack.pop_back();
-            auto it = set_for_mins.find(element);
-            set_for_mins.erase(it);
-            current_min = (set_for_mins.empty()) ? -1 : *set_for_mins.begin();
+MinStack::MinStack() {
+    while (!s1.empty()) s1.pop();
+    while (!s2.empty()) s2.pop();
+}
+
+void MinStack::push(int x) {
+    s1.push(x);
+    if (s2.empty() || !s2.empty() && s2.top() >= x) {
+        s2.push(x);
+    }
+}
+
+void MinStack::pop() {
+    if (!s1.empty()) {
+        auto el = s1.top();
+        s1.pop();
+        if (el == s2.top()) {
+            s2.pop();
         }
     }
-    int top() {
-        if (!stack.empty()) {
-            return stack.back();
-        } else {
-            return -1;
-        }
-    }
-    int getMin() {
-        if (!stack.empty()) {
-            return current_min;
-        } else {
-            return -1;
-        }
-    }
-private:
-    std::vector<int> stack;
-    std::multiset<int> set_for_mins;
-    int current_min = -1;
-};
+}
+
+int MinStack::top() {
+    return (s1.empty()) ? -1 : s1.top();
+}
+
+int MinStack::getMin() {
+    return (s2.empty()) ? -1 : s2.top();
+}
 
 int main() {
     auto ms = MinStack();
