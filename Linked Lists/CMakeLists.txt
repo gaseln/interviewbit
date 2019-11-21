@@ -1,3 +1,3 @@
 cmake_minimum_required (VERSION 3.8)
-add_executable (curr_problem mergeTwoSortedLists.cpp)
+add_executable (curr_problem rotateList.cpp)
 install(TARGETS curr_problem DESTINATION bin)
