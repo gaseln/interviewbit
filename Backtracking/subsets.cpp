@@ -3,21 +3,24 @@
 #include <vector>
 
 std::vector<std::vector<int>> subsets(std::vector<int>& nums) {
+    std::sort(nums.begin(), nums.end());
     if (nums.empty()) {
         return {{}};
     }
 
-    auto add = nums.back();
-    nums.pop_back();
+    auto add = nums[0];
+    nums.erase(nums.begin());
     auto res = subsets(nums);
     auto copy = res;
     for (auto& el : copy) {
-        el.push_back(add);
+        el.insert(el.begin(), add);
     }
+    res.erase(res.begin());
     std::vector<std::vector<int>> result;
     result.reserve(res.size() + copy.size());
-    result.insert(result.end(), res.begin(), res.end());
+    result.push_back({});
     result.insert(result.end(), copy.begin(), copy.end());
+    result.insert(result.end(), res.begin(), res.end());
     return result;
 }
 
