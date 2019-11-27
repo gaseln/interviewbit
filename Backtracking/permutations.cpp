@@ -4,14 +4,13 @@
 
 std::vector<std::vector<int>> permute(std::vector<int>& nums) {
     std::sort(nums.begin(), nums.end());
-    std::vector<int> nums_copy;
     int a;
     std::vector<std::vector<int>> result;
     for (int i = 0; i < nums.size(); ++i) {
-        nums_copy = nums;
         a = nums[i];
-        nums_copy.erase(nums_copy.begin() + i);
-        auto res = permute(nums_copy);
+        nums.erase(nums.begin() + i);
+        auto res = permute(nums);
+        nums.insert(nums.begin() + i, a);
         for (auto& el : res) {
             el.insert(el.begin(), a);
             result.push_back(el);
