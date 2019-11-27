@@ -2,30 +2,32 @@
 #include <iostream>
 #include <vector>
 
-std::vector<std::vector<int>> combinationSum2(std::vector<int>& candidates, int target) {
+std::vector<std::vector<int>> combinationSum(std::vector<int>& candidates, int target) {
     std::sort(candidates.begin(), candidates.end());
 
     if (target < 0) {
         return {};
     }
 
-    std::vector<std::vector<int>> res, intermidiate_res;
+    std::vector<std::vector<int>> res, intermediate_res;
     std::vector<int> candidates_copy, to_add_group;
     int to_add, count;
 
     while (!candidates.empty()) {
         to_add = candidates.back();
         count = 0;
-        while (!candidates.empty() && candidates.back() == to_add) {candidates.pop_back(); count++;}
-        candidates_copy = candidates;
         to_add_group = {};
-        while (count--) {
-            to_add_group.push_back(to_add);
-            intermidiate_res = combinationSum2(candidates_copy, target - to_add);
-            for (auto& el : intermidiate_res) {
+        while (!candidates.empty() && candidates.back() == to_add) {candidates.pop_back(); count++; to_add_group.push_back(to_add);}
+//        std::cout << candidates.size() << std::endl;
+        while (count) {
+            candidates_copy = candidates;
+            intermediate_res = combinationSum(candidates_copy, target - count * to_add);
+            count--;
+            for (auto& el : intermediate_res) {
                 el.insert(el.end(), to_add_group.begin(), to_add_group.end());
             }
-            res.insert(res.end(), intermidiate_res.begin(), intermidiate_res.end());
+            to_add_group.pop_back();
+            res.insert(res.end(), intermediate_res.begin(), intermediate_res.end());
         }
     }
 
@@ -37,8 +39,8 @@ std::vector<std::vector<int>> combinationSum2(std::vector<int>& candidates, int 
 }
 
 int main() {
-    std::vector<int> candidates = {10,1,2,7,6,1,5};
-    auto res = combinationSum2(candidates, 8);
+    std::vector<int> candidates = {1, 1, 2, 2, 2};
+    auto res = combinationSum(candidates, 6);
     for (auto& el : res) {
         for (auto& elem : el) {
             std::cout << elem << " ";
