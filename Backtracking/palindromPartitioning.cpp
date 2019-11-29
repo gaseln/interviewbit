@@ -24,7 +24,7 @@ std::vector<std::vector<std::string>> partition(std::string s) {
     for (int i = 0; i < s.size(); ++i) {
         curr_el += s[i];
         if (isPalindrome(curr_el)) {
-            res_tmp = partition(s.substr(i+1, string::npos));
+            res_tmp = partition(s.substr(i+1, std::string::npos));
             for (auto& el : res_tmp) {
                 el.insert(el.begin(), curr_el);
             }
