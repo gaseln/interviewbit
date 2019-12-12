@@ -1,0 +1,6 @@
+// Colourful Number
+
+int main() {
+    
+}
+
