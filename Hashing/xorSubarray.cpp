@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 
 
 std::vector<int> xorQueries(std::vector<int>& arr, std::vector<std::vector<int>>& queries) {
@@ -19,11 +20,31 @@ std::vector<int> xorQueries(std::vector<int>& arr, std::vector<std::vector<int>>
     return results;
 }
 
-int main() {
-    std::vector<int> arr = {1,3,4,8};
-    std::vector<std::vector<int>> q = {{0,1},{1,2},{0,3},{3,3}};
-    auto res = xorQueries(arr, q);
-    for (auto& el : res) {
-        std::cout << el << " ";
+int solve(std::vector<int>& arr, int B) {
+    int result = 0;
+    size_t arr_size = arr.size();
+    std::vector<int> xor_array(arr_size + 1);
+    xor_array[0] = 0;
+    for (size_t i = 1; i < arr_size + 1; ++i) {
+        xor_array[i] = xor_array[i - 1] xor arr[i - 1];
     }
+    std::unordered_map<int, int> count;
+    int tmp;
+    for (auto& el : xor_array) {
+        count[el] += 1;
+    }
+    for (auto& el : xor_array) {
+        tmp = el xor B;
+        if (count.find(tmp) != count.end()) {
+            result += count[tmp];
+        }
+    }
+    result /= 2;
+    return result;
+}
+
+int main() {
+    std::vector<int> arr = {5, 6, 7, 8, 9};
+    auto res = solve(arr, 5);
+    std::cout << res;
 }
